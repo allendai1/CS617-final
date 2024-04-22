@@ -1,5 +1,6 @@
 import Chart from 'chart.js/auto'
-
+import * as d3 from "d3";
+console.log('hey')
 async function logMovies() {
     let state = 25; // Mass state number
     let year = 2020; // 2018 - 2021
@@ -35,9 +36,9 @@ async function logMovies() {
 
 
     
-    // let m_labels = data.map((e)=> {return e[2]}) // manufacturing labels
+    let m_labels = data.map((e)=> {return e[2]}) // manufacturing labels
 
-    // console.log(m_labels)
+    console.log(m_labels)
   }
   
 logMovies();
