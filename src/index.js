@@ -1,27 +1,31 @@
 import Chart from 'chart.js/auto';
 import * as d3 from "d3";
 import * as topojson from "topojson";
-let us = d3.json('https://d3js.org/us-10m.v2.json')
-const path = d3.geoPath();
-// Create an SVG element
-var svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+import mass from "../data/mass.json"
+import * as parseSVG from "parse-svg"
 
-// Set the width and height attributes
-svg.setAttribute("width", "960");
-svg.setAttribute("height", "600");
+let projection = d3.geoEquirectangular().scale(300)
+// projection.fitExtent([[0,0][900, 500]], mass);
 
-// Add the SVG element to the DOM
-document.body.appendChild(svg);
-// us.then(x=>x))
-// let data = topojson.feature(us, us.objects.states).features
+let context = d3.select('#content canvas')
+  .node()
+  .getContext('2d');
 
-// d3.select(svg)
-// .append('g')
+  let geoGenerator = d3.geoPath()
+  .projection(projection)
+  .context(context);
+  context.beginPath();
+  geoGenerator({type: 'FeatureCollection', features: mass.features})
+  context.stroke();
+// let u = d3.select('#content g.map')
 // .selectAll('path')
-// .data(data)
-// .enter()
-// .append('path')
-// .attr('d', path);
+// .data(mass.features)
+// .join('path')
+// .attr('d', geoGenerator);
+// console.log(u)
+
+
+
 
 
 // async function logMovies() {
