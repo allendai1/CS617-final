@@ -27,12 +27,13 @@ function handleZoom(e) {
 	d3.select('svg g')
 		.attr('transform', e.transform);
 }
-let zoom = d3.zoom()
-	.scaleExtent([0.25, 10])
-	.on('zoom', handleZoom);
+const zoom = d3.zoom()
+      .scaleExtent([1, 8])
+      .on("zoom", zoomed);
 let tooltip = d3.select("div.tooltip");
 
 let body = d3.select("body").node();
+let svg = d3.select("svg")
 let x = d3
 	.select("#content g.map")
 	.selectAll("path")
@@ -44,7 +45,7 @@ let x = d3
 		tooltip.style("visibility", "visible");
 	})
 	.on("mousemove", (event, d) => {
-		console.log(event.layerX, event.layerY)
+		// console.log(event.layerX, event.layerY)
 		tooltip
 			.style(
 				"top",
@@ -61,14 +62,43 @@ let x = d3
 		tooltip.style("visibility", "hidden");
 	})
 	.on("click", (event, d) => {
-
-		let x = d3.select("#content").node().getBoundingClientRect().x;
-		let y = d3.select("#content").node().getBoundingClientRect().height;
-		console.log(d3.select("#content").node().getBoundingClientRect())
-		console.log(x,y)
-		d3.select(event.currentTarget)
-		.transition()
-		.call(zoom.scaleTo, 3, [x-event.layerX,0])
+		clicked(event,d)
+		let x = event.target.getBoundingClientRect().x
+		let y = event.target.getBoundingClientRect().y
+		// console.log(d3.select("#content").node().getBoundingClientRect())
+		// console.log(event.target.getBoundingClientRect())
+		// d3.select(event.currentTarget)
+		// .transition()
+		// .call(zoom.scaleTo, 3, [50,250])
     
 	});
-	
+	// https://observablehq.com/@d3/zoom-to-bounding-box?collection=@d3/d3-zoom
+
+	function zoomed(event) {
+		const {transform} = event;
+		g.attr("transform", transform);
+		g.attr("stroke-width", 1 / transform.k);
+	  }
+	  function reset() {
+		states.transition().style("fill", null);
+		svg.transition().duration(750).call(
+		  zoom.transform,
+		  d3.zoomIdentity,
+		  d3.zoomTransform(svg.node()).invert([width / 2, height / 2])
+		);
+	  }
+
+	  function clicked(event, d) {
+		const [[x0, y0], [x1, y1]] = path.bounds(d);
+		event.stopPropagation();
+		states.transition().style("fill", null);
+		d3.select(this).transition().style("fill", "red");
+		svg.transition().duration(750).call(
+		  zoom.transform,
+		  d3.zoomIdentity
+			.translate(width / 2, height / 2)
+			.scale(Math.min(8, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height)))
+			.translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
+		  d3.pointer(event, svg.node())
+		);
+	  }
