@@ -1,71 +1,74 @@
-import Chart from 'chart.js/auto';
 import * as d3 from "d3";
-import * as topojson from "topojson";
-import mass from "../data/mass.json"
-import * as parseSVG from "parse-svg"
-
-let projection = d3.geoEquirectangular().scale(300)
-// projection.fitExtent([[0,0][900, 500]], mass);
-
-let context = d3.select('#content canvas')
-  .node()
-  .getContext('2d');
-
-  let geoGenerator = d3.geoPath()
-  .projection(projection)
-  .context(context);
-  context.beginPath();
-  geoGenerator({type: 'FeatureCollection', features: mass.features})
-  context.stroke();
-// let u = d3.select('#content g.map')
-// .selectAll('path')
-// .data(mass.features)
-// .join('path')
-// .attr('d', geoGenerator);
-// console.log(u)
+import mass from "../data/mass.json";
+import topojson from "topojson"
+let geojson = mass;
 
 
 
 
+let projection = d3
+	.geoEquirectangular()
+	.center([-71.0589, 42.3601])
+  .fitSize([1300,800], geojson)
+	// .scale(12000)
+	// .translate([1000, 250]);
 
-// async function logMovies() {
-//     let state = 25; // Mass state number
-//     let year = 2020; // 2018 - 2021
-//     let link = `https://api.census.gov/data/timeseries/asm/area2017?get=NAME,GEO_ID,NAICS2017_LABEL,NAICS2017,YEAR,EMP2020,RCPTOT&for=state:${state}&time=${year}`
+let geoGenerator = d3.geoPath().projection(projection);
 
-//     const response = await fetch(link,{mode: 'cors'});
-//     const data = await response.json();
+function update(geojson) {
+	let u = d3.select("#content g.map").selectAll("path").data(geojson.features);
 
-//     let config = {
-//       type: 'bar',
-//       data: {
-//         labels: data.map(row => row[2]),
-//         datasets: [
-//           {
-//             label: 'Output in $1000',
-//             data: data.map(row => row[6])
-//           }
-//         ]
-//       },
-//       options : {
-//         responsive: true,
-//         layout:{
-//           autoPadding : true,
-//         },
-//         backgroundColor: "#24B9DB",
-        
-//       },
-//     };
+	u.enter().append("path").attr("d", geoGenerator);
+}
 
+update(geojson);
 
+function handleZoom(e) {
+	d3.select('svg g')
+		.attr('transform', e.transform);
+}
+let zoom = d3.zoom()
+	.scaleExtent([0.25, 10])
+	.on('zoom', handleZoom);
+let tooltip = d3.select("div.tooltip");
 
-//     new Chart(document.getElementById('manufacturing'), config);
+let body = d3.select("body").node();
+let x = d3
+	.select("#content g.map")
+	.selectAll("path")
+	.on("mouseenter", (event, d) => {
+		d3.select(event.currentTarget)
+			.transition()
+			.duration("150")
+			.style("fill", "#1F2C5C");
+		tooltip.style("visibility", "visible");
+	})
+	.on("mousemove", (event, d) => {
+		console.log(event.layerX, event.layerY)
+		tooltip
+			.style(
+				"top",
+				event.pageY-35 + "px"
+			)
+			.style("left", event.pageX + "px")
+			.text(d.properties.NAME);
+	})
+	.on("mouseout", (event, d) => {
+		d3.select(event.currentTarget)
+			.transition()
+			.duration("200")
+			.style("fill", "#334892");
+		tooltip.style("visibility", "hidden");
+	})
+	.on("click", (event, d) => {
 
-
+		let x = d3.select("#content").node().getBoundingClientRect().x;
+		let y = d3.select("#content").node().getBoundingClientRect().height;
+		console.log(d3.select("#content").node().getBoundingClientRect())
+		console.log(x,y)
+		d3.select(event.currentTarget)
+		.transition()
+		.call(zoom.scaleTo, 3, [x-event.layerX,0])
     
-//     let m_labels = data.map((e)=> {return e[2]}) // manufacturing labels
-
-//     console.log(m_labels)
-//   }
-  
-// logMovies();
+	});
+	
