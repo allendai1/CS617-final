@@ -1,4 +1,4 @@
-Unnamed: 0,month_date_yyyymm,county_name,median_listing_price,active_listing_count,median_days_on_market,new_listing_count,price_increased_count,price_reduced_count,median_listing_price_per_square_foot,median_square_feet,average_listing_price,total_listing_count
+,month_date_yyyymm,county_name,median_listing_price,active_listing_count,median_days_on_market,new_listing_count,price_increased_count,price_reduced_count,median_listing_price_per_square_foot,median_square_feet,average_listing_price,total_listing_count
 ,202403,"hampshire, ma",499700,90,26,80,0,16,294,1800,592612,110
 ,202403,"norfolk, ma",972498,493,22,628,4,124,466,2206,1665330,622
 ,202403,"suffolk, ma",1099900,946,33,720,4,200,955,1310,2164268,1056

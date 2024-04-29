@@ -1,9 +1,9 @@
 {
-  "name": "chartjs-example",
+  "name": "CS617-Final",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel src/index.html",
+    "dev": "parcel src/index.html ",
     "build": "parcel build src/index.html --public-url ./"
   },
   "devDependencies": {
@@ -14,6 +14,7 @@
     "chart.js": "^4.0.0",
     "d3": "^7.9.0",
     "geojson2svg": "^2.0.1",
+    "papaparse": "^5.4.1",
     "parse-svg": "0.0.0",
     "topojson": "^3.0.2"
   }
