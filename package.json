@@ -2,12 +2,12 @@
   "name": "CS617-Final",
   "version": "1.0.0",
   "license": "MIT",
+  "source": "src/index.html",
   "scripts": {
-    "dev": "parcel src/index.html ",
-    "build": "parcel build src/index.html --public-url ./",
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-    
+    "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
     "gh-pages": "^6.1.1",
