@@ -1,12 +1,13 @@
 import * as d3 from "d3";
-import mass from "../data/mass.json";
+import mass from "./data/mass.json";
 import topojson from "topojson";
+import coords from "./data/data.json"
 import Papa from "papaparse";
-import { sliderBottom } from 'd3-simple-slider';
+import { sliderBottom, sliderTop } from "d3-simple-slider";
 let geojson = mass;
-
-let file = "../data/median_counties_price.csv";
-let file2 = "../data/data.csv";
+import * as fs from "fs";
+let file = "./data/median_counties_price.csv";
+let file2 = "./data/data.csv";
 const data = d3.csv(file2, (data) => {
 	return data;
 });
@@ -24,7 +25,6 @@ function update(geojson) {
 }
 
 let states = d3.select("g.map");
-// console.log(states.transition())
 update(geojson);
 let path = geoGenerator;
 
@@ -46,7 +46,6 @@ let x = d3
 		tooltip.style("visibility", "visible");
 	})
 	.on("mousemove", (event, d) => {
-		// console.log(event.layerX, event.layerY)
 		tooltip
 			.style("top", event.pageY - 40 + "px")
 			.style("left", event.pageX + "px")
@@ -60,7 +59,6 @@ let x = d3
 	.on("click", (event, d) => {
 		clicked(event, d);
 		// data.then(d=>{
-		//   console.log(d)
 		// })
 	});
 var allGroup = ["yellow", "blue", "red", "green", "purple", "black"];
@@ -144,14 +142,76 @@ function clicked(event, d) {
 		);
 }
 
-const slider = sliderBottom().min(0).max(10).step(1).width(300);
-const gg = d3.select("div.slider")
-.append('svg')
-.attr('width', 500)
-.attr('height', 100)
-.append('g')
-.attr('transform', 'translate(30,30)');
-  
+// const slider = sliderTop().min(2016).max(2024).step(1).width(500);
+const slider = sliderTop();
+const slider2 = sliderTop();
+slider.domain([2017, 2024]);
+slider.step(1).width(400);
+slider.ticks(7);
+slider.displayFormat(d3.format(".0f"));
+slider2.step(1).width(400);
+slider2.ticks(12);
+slider2.tickValues([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);
+slider2.domain([1, 12]);
+slider2.displayFormat(d3.format("02.0f"));
+slider2.tickFormat(d3.format("02.0f"));
+slider.tickFormat(d3.format(".0f"));
+// let query_date = mm + yyyy
+
+let yyyymm = "201701";
+// slider.on("onchange", (e)=>{
+// 	yyyy=e
+// })
+// slider2.on("onchange", (e)=>{
+// 	mm=String(e).padStart(2, '0')
+// })
+slider.on("end", (e) => {
+	yyyymm = e.toString() + yyyymm.slice(4, 6);
+	console.log(yyyymm);
+});
+slider2.on("end", (e) => {
+	yyyymm = yyyymm.slice(0, 4) + String(e).padStart(2, "0");
+	console.log(yyyymm);
+});
+const gg = d3
+	.select("div.slider")
+	.append("svg")
+	.attr("width", 500)
+	.attr("height", 100)
+	.append("g")
+	.attr("transform", "translate(30,40)");
+const ggg = d3
+	.select("div.slider2")
+	.append("svg")
+	.attr("width", 500)
+	.attr("height", 100)
+	.append("g")
+	.attr("transform", "translate(30,40)");
+gg.call(slider);
+ggg.call(slider2);
 
 
-gg.call(slider)
+
+
+for(const [key,value] of Object.entries(coords)){
+	if (value.hasOwnProperty("coords")){
+		states
+		.append("circle")
+		.attr("r", value.listings.replace(',', '') / 200)
+		.attr("transform", function () {
+			return "translate(" + projection(value.coords) + ")";
+		})
+		.style("fill", "rgba(0,0,0, 0.5)")
+		.on("click", (event,d)=>{
+			console.log(value.town,value.listings)
+
+		})
+	}
+	else{
+		console.log(value.town)
+	}
+	
+
+
+}
+

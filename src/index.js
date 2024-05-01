@@ -2,9 +2,11 @@ import * as d3 from "d3";
 import mass from "./data/mass.json";
 import topojson from "topojson";
 import Papa from "papaparse";
+import coords from "./data/data.json"
+
 import { sliderBottom, sliderTop } from "d3-simple-slider";
 let geojson = mass;
-
+import * as fs from "fs";
 let file = "./data/median_counties_price.csv";
 let file2 = "./data/data.csv";
 const data = d3.csv(file2, (data) => {
@@ -148,31 +150,30 @@ slider.domain([2017, 2024]);
 slider.step(1).width(400);
 slider.ticks(7);
 slider.displayFormat(d3.format(".0f"));
-slider2.step(1).width(400)
-slider2.ticks(12)
-slider2.tickValues([1,2,3,4,5,6,7,8,9,10,11,12])
-slider2.domain([1,12])
-slider2.displayFormat(d3.format('02.0f'))
-slider2.tickFormat(d3.format('02.0f'))
-slider.tickFormat(d3.format('.0f'))
+slider2.step(1).width(400);
+slider2.ticks(12);
+slider2.tickValues([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]);
+slider2.domain([1, 12]);
+slider2.displayFormat(d3.format("02.0f"));
+slider2.tickFormat(d3.format("02.0f"));
+slider.tickFormat(d3.format(".0f"));
 // let query_date = mm + yyyy
 
-
-let yyyymm="201701"
+let yyyymm = "201701";
 // slider.on("onchange", (e)=>{
 // 	yyyy=e
 // })
 // slider2.on("onchange", (e)=>{
 // 	mm=String(e).padStart(2, '0')
 // })
-slider.on("end", (e)=>{
-	yyyymm = e.toString()+ yyyymm.slice(4,6) 
-	console.log(yyyymm)
-})
-slider2.on("end", (e)=>{
-	yyyymm =  yyyymm.slice(0,4)+String(e).padStart(2,'0')
-	console.log(yyyymm)
-})
+slider.on("end", (e) => {
+	yyyymm = e.toString() + yyyymm.slice(4, 6);
+	console.log(yyyymm);
+});
+slider2.on("end", (e) => {
+	yyyymm = yyyymm.slice(0, 4) + String(e).padStart(2, "0");
+	console.log(yyyymm);
+});
 const gg = d3
 	.select("div.slider")
 	.append("svg")
@@ -189,3 +190,29 @@ const ggg = d3
 	.attr("transform", "translate(30,40)");
 gg.call(slider);
 ggg.call(slider2);
+
+for(const [key,value] of Object.entries(coords)){
+	if (value.hasOwnProperty("coords")){
+		states
+		.append("circle")
+		.attr("r", value.listings.replace(',', '') / 200)
+		.attr("transform", function () {
+			return "translate(" + projection(value.coords) + ")";
+		})
+		.style("fill", "rgba(0,0,0, 0.5)")
+		.on("click", (event,d)=>{
+			console.log(value.town,value.listings)
+
+		})
+		.on('mouseover', (event,d)=>{
+			d3.select("#content").append('div').text(value.town).classed("cities-tooltip",true)
+		})
+		.on('mouseout', (event,d)=>{
+			d3.select("#content").select("div").remove()
+		})
+		
+	}
+	
+	
+
+}

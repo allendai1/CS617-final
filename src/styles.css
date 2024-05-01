@@ -26,6 +26,7 @@ body{
     width: 45%;
     /* padding: 0 2rem; */
     border:2px solid black;
+    position: relative;
 }
 .flexbox{
     display: flex;
@@ -34,4 +35,9 @@ body{
     flex-direction: column;
     
 
+}
+.cities-tooltip{
+    position: absolute;
+    top: 0;
+    
 }
