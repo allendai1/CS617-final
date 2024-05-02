@@ -1,7 +1,7 @@
 {
   "Yarmouth Port": {
     "town": "Yarmouth Port",
-    "listings": "364",
+    "listings": "148",
     "coords": [
       "-70.23",
       "41.71"
@@ -9,7 +9,7 @@
   },
   "Worcester": {
     "town": "Worcester",
-    "listings": "1,076",
+    "listings": "360",
     "coords": [
       "-71.81",
       "42.27"
@@ -17,34 +17,42 @@
   },
   "Woods Hole": {
     "town": "Woods Hole",
-    "listings": "204",
+    "listings": "55",
     "coords": [
       "-70.67",
       "41.53"
     ]
   },
-  "Winthrop": {
-    "town": "Winthrop",
-    "listings": "254",
-    "coords": [
-      "-70.97",
-      "42.38"
-    ]
-  },
   "Woburn": {
     "town": "Woburn",
-    "listings": "530",
+    "listings": "211",
     "coords": [
       "-71.15",
       "42.49"
     ]
   },
+  "Winthrop": {
+    "town": "Winthrop",
+    "listings": "72",
+    "coords": [
+      "-70.97",
+      "42.38"
+    ]
+  },
   "Winchester": {
     "town": "Winchester",
-    "listings": "102",
+    "listings": "16",
     "coords": [
       "-71.15",
       "42.45"
+    ]
+  },
+  "Winchendon": {
+    "town": "Winchendon",
+    "listings": "13",
+    "coords": [
+      "-72.04",
+      "42.68"
     ]
   },
   "Wilmington": {
@@ -55,17 +63,9 @@
       "42.56"
     ]
   },
-  "Winchendon": {
-    "town": "Winchendon",
-    "listings": "28",
-    "coords": [
-      "-72.04",
-      "42.68"
-    ]
-  },
   "Williamstown": {
     "town": "Williamstown",
-    "listings": "586",
+    "listings": "171",
     "coords": [
       "-73.2",
       "42.71"
@@ -81,7 +81,7 @@
   },
   "Westport": {
     "town": "Westport",
-    "listings": "249",
+    "listings": "88",
     "coords": [
       "-71.09",
       "41.65"
@@ -89,7 +89,7 @@
   },
   "Westport Point": {
     "town": "Westport Point",
-    "listings": "51",
+    "listings": "16",
     "coords": [
       "-71.0815",
       "41.5704"
@@ -97,7 +97,7 @@
   },
   "Weston": {
     "town": "Weston",
-    "listings": "60",
+    "listings": "15",
     "coords": [
       "-71.3034",
       "42.3662"
@@ -105,7 +105,7 @@
   },
   "Westminster": {
     "town": "Westminster",
-    "listings": "44",
+    "listings": "18",
     "coords": [
       "-71.9101",
       "42.5454"
@@ -113,7 +113,7 @@
   },
   "Westford": {
     "town": "Westford",
-    "listings": "128",
+    "listings": "17",
     "coords": [
       "-71.4378",
       "42.5791"
@@ -129,10 +129,18 @@
   },
   "Westborough": {
     "town": "Westborough",
-    "listings": "141",
+    "listings": "62",
     "coords": [
       "-71.62",
       "42.27"
+    ]
+  },
+  "West Yarmouth": {
+    "town": "West Yarmouth",
+    "listings": "422",
+    "coords": [
+      "-70.25",
+      "41.65"
     ]
   },
   "West Wareham": {
@@ -143,17 +151,9 @@
       "41.79"
     ]
   },
-  "West Yarmouth": {
-    "town": "West Yarmouth",
-    "listings": "1,221",
-    "coords": [
-      "-70.25",
-      "41.65"
-    ]
-  },
   "West Tisbury": {
     "town": "West Tisbury",
-    "listings": "642",
+    "listings": "201",
     "coords": [
       "-70.6700",
       "41.3938"
@@ -161,7 +161,7 @@
   },
   "West Stockbridge": {
     "town": "West Stockbridge",
-    "listings": "192",
+    "listings": "62",
     "coords": [
       "-73.3664",
       "42.3366"
@@ -169,7 +169,7 @@
   },
   "West Roxbury": {
     "town": "West Roxbury",
-    "listings": "274",
+    "listings": "71",
     "coords": [
       "-71.1497",
       "42.2793"
@@ -177,7 +177,7 @@
   },
   "West Newton": {
     "town": "West Newton",
-    "listings": "123",
+    "listings": "27",
     "coords": [
       "-71.2085",
       "42.3529"
@@ -185,7 +185,7 @@
   },
   "West Hyannisport": {
     "town": "West Hyannisport",
-    "listings": "72",
+    "listings": "26",
     "coords": [
       "-70.2984",
       "41.6407"
@@ -193,7 +193,7 @@
   },
   "West Harwich": {
     "town": "West Harwich",
-    "listings": "427",
+    "listings": "122",
     "coords": [
       "-70.1212",
       "41.6618"
@@ -201,7 +201,7 @@
   },
   "West Dennis": {
     "town": "West Dennis",
-    "listings": "823",
+    "listings": "213",
     "coords": [
       "-70.17",
       "41.67"
@@ -209,7 +209,7 @@
   },
   "West Chatham": {
     "town": "West Chatham",
-    "listings": "204",
+    "listings": "63",
     "coords": [
       "-69.99",
       "41.68"
@@ -217,39 +217,39 @@
   },
   "West Brookfield": {
     "town": "West Brookfield",
-    "listings": "21",
+    "listings": "13",
     "coords": [
       "-72.15",
       "42.24"
     ]
   },
-  "Wellesley": {
-    "town": "Wellesley",
-    "listings": "88",
-    "coords": [
-      "-71.29",
-      "42.3"
-    ]
-  },
-  "Wellfleet": {
-    "town": "Wellfleet",
-    "listings": "1,669",
-    "coords": [
-      "-70.011",
-      "41.9334"
-    ]
-  },
   "West Barnstable": {
     "town": "West Barnstable",
-    "listings": "160",
+    "listings": "49",
     "coords": [
       "-70.3657",
       "41.6956"
     ]
   },
+  "Wellfleet": {
+    "town": "Wellfleet",
+    "listings": "469",
+    "coords": [
+      "-70.011",
+      "41.9334"
+    ]
+  },
+  "Wellesley": {
+    "town": "Wellesley",
+    "listings": "23",
+    "coords": [
+      "-71.29",
+      "42.3"
+    ]
+  },
   "Wellesley Hills": {
     "town": "Wellesley Hills",
-    "listings": "85",
+    "listings": "14",
     "coords": [
       "-71.2727",
       "42.3192"
@@ -257,7 +257,7 @@
   },
   "Webster": {
     "town": "Webster",
-    "listings": "54",
+    "listings": "25",
     "coords": [
       "-71.87",
       "42.04"
@@ -265,7 +265,7 @@
   },
   "Wayland": {
     "town": "Wayland",
-    "listings": "80",
+    "listings": "18",
     "coords": [
       "-71.3616",
       "42.3625"
@@ -273,7 +273,7 @@
   },
   "Watertown": {
     "town": "Watertown",
-    "listings": "846",
+    "listings": "181",
     "coords": [
       "-71.18",
       "42.37"
@@ -281,7 +281,7 @@
   },
   "Wareham": {
     "town": "Wareham",
-    "listings": "256",
+    "listings": "110",
     "coords": [
       "-70.72",
       "41.75"
@@ -289,7 +289,7 @@
   },
   "Ware": {
     "town": "Ware",
-    "listings": "24",
+    "listings": "17",
     "coords": [
       "-72.25",
       "42.25"
@@ -297,7 +297,7 @@
   },
   "Waltham": {
     "town": "Waltham",
-    "listings": "827",
+    "listings": "175",
     "coords": [
       "-71.24",
       "42.39"
@@ -313,7 +313,7 @@
   },
   "Vineyard Haven": {
     "town": "Vineyard Haven",
-    "listings": "867",
+    "listings": "289",
     "coords": [
       "-70.6",
       "41.46"
@@ -321,7 +321,7 @@
   },
   "Truro": {
     "town": "Truro",
-    "listings": "455",
+    "listings": "129",
     "coords": [
       "-70.0495",
       "41.997"
@@ -329,15 +329,23 @@
   },
   "Tewksbury": {
     "town": "Tewksbury",
-    "listings": "123",
+    "listings": "22",
     "coords": [
       "-71.2342",
       "42.6106"
     ]
   },
+  "Taunton": {
+    "town": "Taunton",
+    "listings": "47",
+    "coords": [
+      "-71.09",
+      "41.9"
+    ]
+  },
   "Swansea": {
     "town": "Swansea",
-    "listings": "40",
+    "listings": "11",
     "coords": [
       "-71.1898",
       "41.7482"
@@ -345,23 +353,15 @@
   },
   "Swampscott": {
     "town": "Swampscott",
-    "listings": "151",
+    "listings": "53",
     "coords": [
       "-70.89",
       "42.47"
     ]
   },
-  "Taunton": {
-    "town": "Taunton",
-    "listings": "99",
-    "coords": [
-      "-71.09",
-      "41.9"
-    ]
-  },
   "Sturbridge": {
     "town": "Sturbridge",
-    "listings": "75",
+    "listings": "18",
     "coords": [
       "-72.06",
       "42.1"
@@ -369,7 +369,7 @@
   },
   "Stoughton": {
     "town": "Stoughton",
-    "listings": "75",
+    "listings": "29",
     "coords": [
       "-71.1045",
       "42.1245"
@@ -377,31 +377,31 @@
   },
   "Stoneham": {
     "town": "Stoneham",
-    "listings": "82",
+    "listings": "32",
     "coords": [
       "-71.1",
       "42.47"
     ]
   },
-  "Springfield": {
-    "town": "Springfield",
-    "listings": "520",
-    "coords": [
-      "-72.54",
-      "42.12"
-    ]
-  },
   "Stockbridge": {
     "town": "Stockbridge",
-    "listings": "210",
+    "listings": "73",
     "coords": [
       "-73.3201",
       "42.2808"
     ]
   },
+  "Springfield": {
+    "town": "Springfield",
+    "listings": "224",
+    "coords": [
+      "-72.54",
+      "42.12"
+    ]
+  },
   "Spencer": {
     "town": "Spencer",
-    "listings": "36",
+    "listings": "15",
     "coords": [
       "-71.99",
       "42.25"
@@ -415,41 +415,41 @@
       "42.0541"
     ]
   },
-  "Southborough": {
-    "town": "Southborough",
-    "listings": "99",
-    "coords": [
-      "-71.5256",
-      "42.3056"
-    ]
-  },
-  "South Wellfleet": {
-    "town": "South Wellfleet",
-    "listings": "253",
-    "coords": [
-      "-69.9793",
-      "41.9056"
-    ]
-  },
   "Southfield": {
     "town": "Southfield",
-    "listings": "49",
+    "listings": "27",
     "coords": [
       "-70.93",
       "42.15"
     ]
   },
+  "Southborough": {
+    "town": "Southborough",
+    "listings": "14",
+    "coords": [
+      "-71.5256",
+      "42.3056"
+    ]
+  },
   "South Yarmouth": {
     "town": "South Yarmouth",
-    "listings": "1,182",
+    "listings": "444",
     "coords": [
       "-70.2",
       "41.67"
     ]
   },
+  "South Wellfleet": {
+    "town": "South Wellfleet",
+    "listings": "77",
+    "coords": [
+      "-69.9793",
+      "41.9056"
+    ]
+  },
   "South Lee": {
     "town": "South Lee",
-    "listings": "48",
+    "listings": "14",
     "coords": [
       "-73.2486",
       "42.2875"
@@ -457,7 +457,7 @@
   },
   "South Hadley": {
     "town": "South Hadley",
-    "listings": "75",
+    "listings": "23",
     "coords": [
       "-72.5747",
       "42.2596"
@@ -465,7 +465,7 @@
   },
   "South Egremont": {
     "town": "South Egremont",
-    "listings": "85",
+    "listings": "33",
     "coords": [
       "-73.4411",
       "42.133"
@@ -473,7 +473,7 @@
   },
   "South Dennis": {
     "town": "South Dennis",
-    "listings": "462",
+    "listings": "178",
     "coords": [
       "-70.15",
       "41.71"
@@ -481,7 +481,7 @@
   },
   "South Deerfield": {
     "town": "South Deerfield",
-    "listings": "52",
+    "listings": "17",
     "coords": [
       "-72.59",
       "42.48"
@@ -489,7 +489,7 @@
   },
   "South Dartmouth": {
     "town": "South Dartmouth",
-    "listings": "153",
+    "listings": "64",
     "coords": [
       "-70.961",
       "41.5742"
@@ -497,7 +497,7 @@
   },
   "South Chatham": {
     "town": "South Chatham",
-    "listings": "459",
+    "listings": "182",
     "coords": [
       "-69.9875",
       "41.6888"
@@ -505,31 +505,31 @@
   },
   "Somerville": {
     "town": "Somerville",
-    "listings": "4,226",
+    "listings": "561",
     "coords": [
       "-71.1",
       "42.39"
     ]
   },
-  "Siasconset": {
-    "town": "Siasconset",
-    "listings": "414",
-    "coords": [
-      "-69.97",
-      "41.26"
-    ]
-  },
   "Somerset": {
     "town": "Somerset",
-    "listings": "47",
+    "listings": "30",
     "coords": [
       "-71.16",
       "41.74"
     ]
   },
+  "Siasconset": {
+    "town": "Siasconset",
+    "listings": "106",
+    "coords": [
+      "-69.97",
+      "41.26"
+    ]
+  },
   "Shrewsbury": {
     "town": "Shrewsbury",
-    "listings": "121",
+    "listings": "52",
     "coords": [
       "-71.7387",
       "42.2945"
@@ -537,7 +537,7 @@
   },
   "Shelburne Falls": {
     "town": "Shelburne Falls",
-    "listings": "163",
+    "listings": "60",
     "coords": [
       "-72.74",
       "42.61"
@@ -545,7 +545,7 @@
   },
   "Sheffield": {
     "town": "Sheffield",
-    "listings": "163",
+    "listings": "61",
     "coords": [
       "-73.3555",
       "42.1089"
@@ -561,7 +561,7 @@
   },
   "Scituate": {
     "town": "Scituate",
-    "listings": "388",
+    "listings": "161",
     "coords": [
       "-70.77",
       "42.21"
@@ -569,7 +569,7 @@
   },
   "Saugus": {
     "town": "Saugus",
-    "listings": "178",
+    "listings": "34",
     "coords": [
       "-71.01",
       "42.47"
@@ -577,7 +577,7 @@
   },
   "Sandwich": {
     "town": "Sandwich",
-    "listings": "546",
+    "listings": "227",
     "coords": [
       "-70.43",
       "41.74"
@@ -585,55 +585,55 @@
   },
   "Sandisfield": {
     "town": "Sandisfield",
-    "listings": "83",
+    "listings": "31",
     "coords": [
       "-73.13",
       "42.1068"
     ]
   },
-  "Rutland": {
-    "town": "Rutland",
-    "listings": "19",
-    "coords": [
-      "-71.96",
-      "42.36"
-    ]
-  },
-  "Salem": {
-    "town": "Salem",
-    "listings": "1,016",
-    "coords": [
-      "-70.85",
-      "42.52"
-    ]
-  },
-  "Roxbury": {
-    "town": "Roxbury",
-    "listings": "1,094",
-    "coords": [
-      "-71.0848",
-      "42.3251"
-    ]
-  },
-  "Sagamore Beach": {
-    "town": "Sagamore Beach",
-    "listings": "237",
-    "coords": [
-      "-70.5271",
-      "41.8048"
-    ]
-  },
   "Salisbury": {
     "town": "Salisbury",
-    "listings": "321",
+    "listings": "154",
     "coords": [
       "-70.84",
       "42.83"
     ]
   },
+  "Salem": {
+    "town": "Salem",
+    "listings": "440",
+    "coords": [
+      "-70.85",
+      "42.52"
+    ]
+  },
+  "Sagamore Beach": {
+    "town": "Sagamore Beach",
+    "listings": "113",
+    "coords": [
+      "-70.5271",
+      "41.8048"
+    ]
+  },
+  "Rutland": {
+    "town": "Rutland",
+    "listings": "12",
+    "coords": [
+      "-71.96",
+      "42.36"
+    ]
+  },
+  "Roxbury": {
+    "town": "Roxbury",
+    "listings": "269",
+    "coords": [
+      "-71.0848",
+      "42.3251"
+    ]
+  },
   "Roxbury Crossing": {
     "town": "Roxbury Crossing",
-    "listings": "877",
+    "listings": "87",
     "coords": [
       "-71.0982",
       "42.3314"
@@ -641,7 +641,7 @@
   },
   "Rowley": {
     "town": "Rowley",
-    "listings": "31",
+    "listings": "13",
     "coords": [
       "-70.87",
       "42.72"
@@ -649,7 +649,7 @@
   },
   "Roslindale": {
     "town": "Roslindale",
-    "listings": "391",
+    "listings": "87",
     "coords": [
       "-71.1301",
       "42.2814"
@@ -657,7 +657,7 @@
   },
   "Rockport": {
     "town": "Rockport",
-    "listings": "828",
+    "listings": "308",
     "coords": [
       "-70.62",
       "42.65"
@@ -665,55 +665,55 @@
   },
   "Richmond": {
     "town": "Richmond",
-    "listings": "72",
+    "listings": "27",
     "coords": [
       "-73.3644",
       "42.3754"
     ]
   },
-  "Rehoboth": {
-    "town": "Rehoboth",
-    "listings": "41",
-    "coords": [
-      "-71.2643",
-      "41.8431"
-    ]
-  },
   "Revere": {
     "town": "Revere",
-    "listings": "1,132",
+    "listings": "182",
     "coords": [
       "-70.99",
       "42.42"
     ]
   },
+  "Rehoboth": {
+    "town": "Rehoboth",
+    "listings": "14",
+    "coords": [
+      "-71.2643",
+      "41.8431"
+    ]
+  },
   "Randolph": {
     "town": "Randolph",
-    "listings": "142",
+    "listings": "42",
     "coords": [
       "-71.05",
       "42.18"
     ]
   },
-  "Provincetown": {
-    "town": "Provincetown",
-    "listings": "3,285",
-    "coords": [
-      "-70.18",
-      "42.05"
-    ]
-  },
   "Quincy": {
     "town": "Quincy",
-    "listings": "1,428",
+    "listings": "230",
     "coords": [
       "-71.01",
       "42.26"
     ]
   },
+  "Provincetown": {
+    "town": "Provincetown",
+    "listings": "1,186",
+    "coords": [
+      "-70.18",
+      "42.05"
+    ]
+  },
   "Pocasset": {
     "town": "Pocasset",
-    "listings": "240",
+    "listings": "89",
     "coords": [
       "-70.64",
       "41.69"
@@ -721,31 +721,31 @@
   },
   "Plymouth": {
     "town": "Plymouth",
-    "listings": "1,191",
+    "listings": "469",
     "coords": [
       "-70.68",
       "41.98"
     ]
   },
-  "Peabody": {
-    "town": "Peabody",
-    "listings": "174",
-    "coords": [
-      "-70.97",
-      "42.53"
-    ]
-  },
   "Pittsfield": {
     "town": "Pittsfield",
-    "listings": "518",
+    "listings": "201",
     "coords": [
       "-73.26",
       "42.45"
     ]
   },
+  "Peabody": {
+    "town": "Peabody",
+    "listings": "37",
+    "coords": [
+      "-70.97",
+      "42.53"
+    ]
+  },
   "Palmer": {
     "town": "Palmer",
-    "listings": "36",
+    "listings": "20",
     "coords": [
       "-72.31",
       "42.19"
@@ -753,31 +753,31 @@
   },
   "Otis": {
     "town": "Otis",
-    "listings": "94",
+    "listings": "36",
     "coords": [
       "-73.0631",
       "42.1942"
     ]
   },
-  "Orleans": {
-    "town": "Orleans",
-    "listings": "1,526",
-    "coords": [
-      "-70",
-      "41.79"
-    ]
-  },
   "Osterville": {
     "town": "Osterville",
-    "listings": "460",
+    "listings": "138",
     "coords": [
       "-70.3826",
       "41.6352"
     ]
   },
+  "Orleans": {
+    "town": "Orleans",
+    "listings": "446",
+    "coords": [
+      "-70",
+      "41.79"
+    ]
+  },
   "Orange": {
     "town": "Orange",
-    "listings": "48",
+    "listings": "28",
     "coords": [
       "-72.3",
       "42.6"
@@ -785,7 +785,7 @@
   },
   "Onset": {
     "town": "Onset",
-    "listings": "189",
+    "listings": "81",
     "coords": [
       "-70.67",
       "41.75"
@@ -793,7 +793,7 @@
   },
   "Oak Bluffs": {
     "town": "Oak Bluffs",
-    "listings": "1,571",
+    "listings": "613",
     "coords": [
       "-70.5616",
       "41.4555"
@@ -801,7 +801,7 @@
   },
   "Norwood": {
     "town": "Norwood",
-    "listings": "366",
+    "listings": "15",
     "coords": [
       "-71.19",
       "42.19"
@@ -809,7 +809,7 @@
   },
   "Northampton": {
     "town": "Northampton",
-    "listings": "431",
+    "listings": "112",
     "coords": [
       "-72.67",
       "42.33"
@@ -817,7 +817,7 @@
   },
   "North Weymouth": {
     "town": "North Weymouth",
-    "listings": "76",
+    "listings": "19",
     "coords": [
       "-70.9429",
       "42.2358"
@@ -825,7 +825,7 @@
   },
   "North Truro": {
     "town": "North Truro",
-    "listings": "1,021",
+    "listings": "351",
     "coords": [
       "-70.0902",
       "42.0366"
@@ -833,7 +833,7 @@
   },
   "North Falmouth": {
     "town": "North Falmouth",
-    "listings": "366",
+    "listings": "140",
     "coords": [
       "-70.63",
       "41.64"
@@ -841,26 +841,10 @@
   },
   "North Chatham": {
     "town": "North Chatham",
-    "listings": "281",
+    "listings": "92",
     "coords": [
       "-69.96",
       "41.7023"
-    ]
-  },
-  "North Adams": {
-    "town": "North Adams",
-    "listings": "376",
-    "coords": [
-      "-73.12",
-      "42.68"
-    ]
-  },
-  "Newtonville": {
-    "town": "Newtonville",
-    "listings": "152",
-    "coords": [
-      "-71.2081",
-      "42.3494"
     ]
   },
   "North Andover": {
@@ -871,17 +855,41 @@
       "42.6982"
     ]
   },
+  "North Adams": {
+    "town": "North Adams",
+    "listings": "149",
+    "coords": [
+      "-73.12",
+      "42.68"
+    ]
+  },
+  "Newtonville": {
+    "town": "Newtonville",
+    "listings": "45",
+    "coords": [
+      "-71.2081",
+      "42.3494"
+    ]
+  },
   "Newton": {
     "town": "Newton",
-    "listings": "281",
+    "listings": "63",
     "coords": [
       "-71.21",
       "42.33"
     ]
   },
+  "Newton Highlands": {
+    "town": "Newton Highlands",
+    "listings": "36",
+    "coords": [
+      "-71.2071",
+      "42.3224"
+    ]
+  },
   "Newton Center": {
     "town": "Newton Center",
-    "listings": "247",
+    "listings": "47",
     "coords": [
       "-71.1948",
       "42.3248"
@@ -889,87 +897,87 @@
   },
   "Newburyport": {
     "town": "Newburyport",
-    "listings": "545",
+    "listings": "175",
     "coords": [
       "-70.89",
       "42.81"
-    ]
-  },
-  "Newton Highlands": {
-    "town": "Newton Highlands",
-    "listings": "132",
-    "coords": [
-      "-71.2071",
-      "42.3224"
     ]
   },
   "Newbury": {
     "town": "Newbury",
-    "listings": "357",
+    "listings": "116",
     "coords": [
       "-70.89",
       "42.81"
     ]
   },
-  "Natick": {
-    "town": "Natick",
-    "listings": "145",
-    "coords": [
-      "-71.3492",
-      "42.2814"
-    ]
-  },
   "New Bedford": {
     "town": "New Bedford",
-    "listings": "197",
+    "listings": "76",
     "coords": [
       "-70.94",
       "41.66"
     ]
   },
+  "Natick": {
+    "town": "Natick",
+    "listings": "23",
+    "coords": [
+      "-71.3492",
+      "42.2814"
+    ]
+  },
   "Nantucket": {
     "town": "Nantucket",
-    "listings": "3,596",
+    "listings": "1,220",
     "coords": [
       "-70.09",
       "41.27"
     ]
   },
-  "Milton": {
-    "town": "Milton",
-    "listings": "161",
-    "coords": [
-      "-71.08",
-      "42.24"
-    ]
-  },
   "Nahant": {
     "town": "Nahant",
-    "listings": "98",
+    "listings": "45",
     "coords": [
       "-70.91",
       "42.41"
     ]
   },
-  "Millbury": {
-    "town": "Millbury",
-    "listings": "27",
-    "coords": [
-      "-71.7645",
-      "42.191"
-    ]
-  },
   "Monterey": {
     "town": "Monterey",
-    "listings": "159",
+    "listings": "62",
     "coords": [
       "-73.228",
       "42.1846"
     ]
   },
+  "Montague": {
+    "town": "Montague",
+    "listings": "9",
+    "coords": [
+      "-72.53",
+      "42.54"
+    ]
+  },
+  "Milton": {
+    "town": "Milton",
+    "listings": "43",
+    "coords": [
+      "-71.08",
+      "42.24"
+    ]
+  },
+  "Millbury": {
+    "town": "Millbury",
+    "listings": "10",
+    "coords": [
+      "-71.7645",
+      "42.191"
+    ]
+  },
   "Milford": {
     "town": "Milford",
-    "listings": "93",
+    "listings": "49",
     "coords": [
       "-71.52",
       "42.15"
@@ -977,47 +985,47 @@
   },
   "Methuen": {
     "town": "Methuen",
-    "listings": "78",
+    "listings": "24",
     "coords": [
       "-71.19",
       "42.73"
     ]
   },
-  "Mattapan": {
-    "town": "Mattapan",
-    "listings": "220",
-    "coords": [
-      "-71.0914",
-      "42.2771"
-    ]
-  },
-  "Medford": {
-    "town": "Medford",
-    "listings": "1,096",
-    "coords": [
-      "-71.11",
-      "42.42"
-    ]
-  },
   "Melrose": {
     "town": "Melrose",
-    "listings": "219",
+    "listings": "60",
     "coords": [
       "-71.06",
       "42.46"
     ]
   },
+  "Medford": {
+    "town": "Medford",
+    "listings": "247",
+    "coords": [
+      "-71.11",
+      "42.42"
+    ]
+  },
   "Mattapoisett": {
     "town": "Mattapoisett",
-    "listings": "155",
+    "listings": "57",
     "coords": [
       "-70.81",
       "41.67"
     ]
   },
+  "Mattapan": {
+    "town": "Mattapan",
+    "listings": "67",
+    "coords": [
+      "-71.0914",
+      "42.2771"
+    ]
+  },
   "Mashpee": {
     "town": "Mashpee",
-    "listings": "1,392",
+    "listings": "475",
     "coords": [
       "-70.47",
       "41.61"
@@ -1025,7 +1033,7 @@
   },
   "Marstons Mills": {
     "town": "Marstons Mills",
-    "listings": "184",
+    "listings": "69",
     "coords": [
       "-70.4179",
       "41.6583"
@@ -1033,7 +1041,7 @@
   },
   "Marshfield": {
     "town": "Marshfield",
-    "listings": "439",
+    "listings": "130",
     "coords": [
       "-70.7",
       "42.09"
@@ -1041,7 +1049,7 @@
   },
   "Marlborough": {
     "town": "Marlborough",
-    "listings": "229",
+    "listings": "50",
     "coords": [
       "-71.55",
       "42.35"
@@ -1049,7 +1057,7 @@
   },
   "Marion": {
     "town": "Marion",
-    "listings": "144",
+    "listings": "50",
     "coords": [
       "-70.76",
       "41.7"
@@ -1057,7 +1065,7 @@
   },
   "Marblehead": {
     "town": "Marblehead",
-    "listings": "503",
+    "listings": "210",
     "coords": [
       "-70.83",
       "42.49"
@@ -1065,7 +1073,7 @@
   },
   "Mansfield": {
     "town": "Mansfield",
-    "listings": "72",
+    "listings": "20",
     "coords": [
       "-71.22",
       "42.02"
@@ -1073,7 +1081,7 @@
   },
   "Manchester": {
     "town": "Manchester",
-    "listings": "146",
+    "listings": "43",
     "coords": [
       "-70.7674",
       "42.5664"
@@ -1081,7 +1089,7 @@
   },
   "Malden": {
     "town": "Malden",
-    "listings": "1,145",
+    "listings": "192",
     "coords": [
       "-71.06",
       "42.43"
@@ -1089,7 +1097,7 @@
   },
   "Lynn": {
     "town": "Lynn",
-    "listings": "322",
+    "listings": "103",
     "coords": [
       "-70.96",
       "42.47"
@@ -1097,7 +1105,7 @@
   },
   "Lowell": {
     "town": "Lowell",
-    "listings": "377",
+    "listings": "98",
     "coords": [
       "-71.32",
       "42.64"
@@ -1113,7 +1121,7 @@
   },
   "Lexington": {
     "town": "Lexington",
-    "listings": "340",
+    "listings": "50",
     "coords": [
       "-71.23",
       "42.45"
@@ -1121,7 +1129,7 @@
   },
   "Leominster": {
     "town": "Leominster",
-    "listings": "64",
+    "listings": "20",
     "coords": [
       "-71.77",
       "42.52"
@@ -1129,7 +1137,7 @@
   },
   "Lenox": {
     "town": "Lenox",
-    "listings": "624",
+    "listings": "222",
     "coords": [
       "-73.29",
       "42.36"
@@ -1137,7 +1145,7 @@
   },
   "Leicester": {
     "town": "Leicester",
-    "listings": "32",
+    "listings": "20",
     "coords": [
       "-71.9097",
       "42.2432"
@@ -1145,7 +1153,7 @@
   },
   "Lee": {
     "town": "Lee",
-    "listings": "530",
+    "listings": "160",
     "coords": [
       "-73.25",
       "42.31"
@@ -1153,31 +1161,31 @@
   },
   "Lawrence": {
     "town": "Lawrence",
-    "listings": "106",
+    "listings": "41",
     "coords": [
       "-71.16",
       "42.7"
     ]
   },
-  "Lakeville": {
-    "town": "Lakeville",
-    "listings": "34",
-    "coords": [
-      "-70.94",
-      "41.86"
-    ]
-  },
   "Lanesboro": {
     "town": "Lanesboro",
-    "listings": "642",
+    "listings": "220",
     "coords": [
       "-73.2487",
       "42.5141"
     ]
   },
+  "Lakeville": {
+    "town": "Lakeville",
+    "listings": "18",
+    "coords": [
+      "-70.94",
+      "41.86"
+    ]
+  },
   "Kingston": {
     "town": "Kingston",
-    "listings": "69",
+    "listings": "23",
     "coords": [
       "-70.72",
       "42"
@@ -1185,31 +1193,31 @@
   },
   "Jamaica Plain": {
     "town": "Jamaica Plain",
-    "listings": "2,093",
+    "listings": "202",
     "coords": [
       "-71.1151",
       "42.3097"
     ]
   },
-  "Indian Orchard": {
-    "town": "Indian Orchard",
-    "listings": "27",
-    "coords": [
-      "-72.5119",
-      "42.1343"
-    ]
-  },
   "Ipswich": {
     "town": "Ipswich",
-    "listings": "243",
+    "listings": "76",
     "coords": [
       "-70.83",
       "42.68"
     ]
   },
+  "Indian Orchard": {
+    "town": "Indian Orchard",
+    "listings": "13",
+    "coords": [
+      "-72.5119",
+      "42.1343"
+    ]
+  },
   "Hyde Park": {
     "town": "Hyde Park",
-    "listings": "228",
+    "listings": "55",
     "coords": [
       "-71.1241",
       "42.2565"
@@ -1217,7 +1225,7 @@
   },
   "Hyannis": {
     "town": "Hyannis",
-    "listings": "1,067",
+    "listings": "415",
     "coords": [
       "-70.2957",
       "41.6325"
@@ -1225,7 +1233,7 @@
   },
   "Hyannis Port": {
     "town": "Hyannis Port",
-    "listings": "79",
+    "listings": "23",
     "coords": [
       "-70.2957",
       "41.6325"
@@ -1249,7 +1257,7 @@
   },
   "Hull": {
     "town": "Hull",
-    "listings": "351",
+    "listings": "86",
     "coords": [
       "-70.88",
       "42.31"
@@ -1265,7 +1273,7 @@
   },
   "Housatonic": {
     "town": "Housatonic",
-    "listings": "142",
+    "listings": "42",
     "coords": [
       "-73.36",
       "42.25"
@@ -1273,7 +1281,7 @@
   },
   "Holyoke": {
     "town": "Holyoke",
-    "listings": "108",
+    "listings": "45",
     "coords": [
       "-72.64",
       "42.21"
@@ -1281,7 +1289,7 @@
   },
   "Holland": {
     "town": "Holland",
-    "listings": "52",
+    "listings": "26",
     "coords": [
       "-72.15",
       "42.05"
@@ -1289,7 +1297,7 @@
   },
   "Hinsdale": {
     "town": "Hinsdale",
-    "listings": "65",
+    "listings": "26",
     "coords": [
       "-73.1166",
       "42.4185"
@@ -1297,7 +1305,7 @@
   },
   "Hingham": {
     "town": "Hingham",
-    "listings": "94",
+    "listings": "16",
     "coords": [
       "-70.89",
       "42.24"
@@ -1305,7 +1313,7 @@
   },
   "Haverhill": {
     "town": "Haverhill",
-    "listings": "143",
+    "listings": "39",
     "coords": [
       "-71.09",
       "42.78"
@@ -1313,31 +1321,31 @@
   },
   "Harwich": {
     "town": "Harwich",
-    "listings": "953",
+    "listings": "301",
     "coords": [
       "-70.03",
       "41.71"
     ]
   },
-  "Hadley": {
-    "town": "Hadley",
-    "listings": "57",
-    "coords": [
-      "-72.5747",
-      "42.2596"
-    ]
-  },
   "Harwich Port": {
     "town": "Harwich Port",
-    "listings": "721",
+    "listings": "238",
     "coords": [
       "-70.06",
       "41.67"
     ]
   },
+  "Hadley": {
+    "town": "Hadley",
+    "listings": "23",
+    "coords": [
+      "-72.5747",
+      "42.2596"
+    ]
+  },
   "Groton": {
     "town": "Groton",
-    "listings": "61",
+    "listings": "22",
     "coords": [
       "-71.57",
       "42.61"
@@ -1345,7 +1353,7 @@
   },
   "Greenfield": {
     "town": "Greenfield",
-    "listings": "117",
+    "listings": "29",
     "coords": [
       "-72.6",
       "42.61"
@@ -1353,7 +1361,7 @@
   },
   "Great Barrington": {
     "town": "Great Barrington",
-    "listings": "982",
+    "listings": "342",
     "coords": [
       "-73.36",
       "42.19"
@@ -1361,7 +1369,7 @@
   },
   "Granville": {
     "town": "Granville",
-    "listings": "43",
+    "listings": "16",
     "coords": [
       "-72.925",
       "42.0853"
@@ -1369,7 +1377,7 @@
   },
   "Granby": {
     "town": "Granby",
-    "listings": "31",
+    "listings": "16",
     "coords": [
       "-72.52",
       "42.26"
@@ -1377,7 +1385,7 @@
   },
   "Gloucester": {
     "town": "Gloucester",
-    "listings": "1,139",
+    "listings": "397",
     "coords": [
       "-70.68",
       "42.63"
@@ -1393,7 +1401,7 @@
   },
   "Framingham": {
     "town": "Framingham",
-    "listings": "568",
+    "listings": "78",
     "coords": [
       "-71.44",
       "42.31"
@@ -1401,7 +1409,7 @@
   },
   "Foxboro": {
     "town": "Foxboro",
-    "listings": "248",
+    "listings": "144",
     "coords": [
       "-71.25",
       "42.06"
@@ -1409,7 +1417,7 @@
   },
   "Forestdale": {
     "town": "Forestdale",
-    "listings": "49",
+    "listings": "19",
     "coords": [
       "-70.51",
       "41.68"
@@ -1417,7 +1425,7 @@
   },
   "Florence": {
     "town": "Florence",
-    "listings": "163",
+    "listings": "59",
     "coords": [
       "-72.6758",
       "42.33"
@@ -1425,7 +1433,7 @@
   },
   "Fitchburg": {
     "town": "Fitchburg",
-    "listings": "92",
+    "listings": "32",
     "coords": [
       "-71.82",
       "42.59"
@@ -1433,7 +1441,7 @@
   },
   "Falmouth": {
     "town": "Falmouth",
-    "listings": "1,149",
+    "listings": "352",
     "coords": [
       "-70.56",
       "41.57"
@@ -1441,7 +1449,7 @@
   },
   "Fall River": {
     "town": "Fall River",
-    "listings": "110",
+    "listings": "44",
     "coords": [
       "-71.1",
       "41.71"
@@ -1449,7 +1457,7 @@
   },
   "Fairhaven": {
     "town": "Fairhaven",
-    "listings": "214",
+    "listings": "82",
     "coords": [
       "-70.9036",
       "41.6376"
@@ -1457,7 +1465,7 @@
   },
   "Everett": {
     "town": "Everett",
-    "listings": "621",
+    "listings": "180",
     "coords": [
       "-71.05",
       "42.41"
@@ -1465,7 +1473,7 @@
   },
   "Essex": {
     "town": "Essex",
-    "listings": "90",
+    "listings": "35",
     "coords": [
       "-70.77",
       "42.63"
@@ -1473,7 +1481,7 @@
   },
   "Edgartown": {
     "town": "Edgartown",
-    "listings": "1,804",
+    "listings": "617",
     "coords": [
       "-70.5133",
       "41.3895"
@@ -1481,7 +1489,7 @@
   },
   "Easthampton": {
     "town": "Easthampton",
-    "listings": "128",
+    "listings": "41",
     "coords": [
       "-72.67",
       "42.27"
@@ -1489,7 +1497,7 @@
   },
   "Eastham": {
     "town": "Eastham",
-    "listings": "1,741",
+    "listings": "633",
     "coords": [
       "-72.67",
       "42.27"
@@ -1505,7 +1513,7 @@
   },
   "East Sandwich": {
     "town": "East Sandwich",
-    "listings": "649",
+    "listings": "290",
     "coords": [
       "-70.43",
       "41.74"
@@ -1513,7 +1521,7 @@
   },
   "East Otis": {
     "town": "East Otis",
-    "listings": "85",
+    "listings": "40",
     "coords": [
       "-73.0224",
       "42.1782"
@@ -1529,7 +1537,7 @@
   },
   "East Falmouth": {
     "town": "East Falmouth",
-    "listings": "1,298",
+    "listings": "496",
     "coords": [
       "-70.56",
       "41.57"
@@ -1537,7 +1545,7 @@
   },
   "East Dennis": {
     "town": "East Dennis",
-    "listings": "137",
+    "listings": "49",
     "coords": [
       "-70.16",
       "41.74"
@@ -1545,7 +1553,7 @@
   },
   "Duxbury": {
     "town": "Duxbury",
-    "listings": "169",
+    "listings": "36",
     "coords": [
       "-70.67",
       "42.04"
@@ -1561,7 +1569,7 @@
   },
   "Dorchester": {
     "town": "Dorchester",
-    "listings": "2,603",
+    "listings": "543",
     "coords": [
       "-71.0676",
       "42.3016"
@@ -1569,7 +1577,7 @@
   },
   "Dorchester Center": {
     "town": "Dorchester Center",
-    "listings": "752",
+    "listings": "171",
     "coords": [
       "-71.0676",
       "42.3016"
@@ -1577,79 +1585,79 @@
   },
   "Dennis": {
     "town": "Dennis",
-    "listings": "563",
+    "listings": "202",
     "coords": [
       "-70.2",
       "41.73"
     ]
   },
-  "Dedham": {
-    "town": "Dedham",
-    "listings": "160",
-    "coords": [
-      "-71.18",
-      "42.25"
-    ]
-  },
   "Dennis Port": {
     "town": "Dennis Port",
-    "listings": "2,170",
+    "listings": "715",
     "coords": [
       "-70.14",
       "41.67"
     ]
   },
+  "Dedham": {
+    "town": "Dedham",
+    "listings": "46",
+    "coords": [
+      "-71.18",
+      "42.25"
+    ]
+  },
   "Danvers": {
     "town": "Danvers",
-    "listings": "119",
+    "listings": "44",
     "coords": [
       "-70.95",
       "42.57"
     ]
   },
-  "Cummington": {
-    "town": "Cummington",
-    "listings": "42",
-    "coords": [
-      "-72.9059",
-      "42.4485"
-    ]
-  },
   "Dalton": {
     "town": "Dalton",
-    "listings": "42",
+    "listings": "15",
     "coords": [
       "-73.1675",
       "42.4753"
     ]
   },
+  "Cummington": {
+    "town": "Cummington",
+    "listings": "15",
+    "coords": [
+      "-72.9059",
+      "42.4485"
+    ]
+  },
   "Cotuit": {
     "town": "Cotuit",
-    "listings": "245",
+    "listings": "89",
     "coords": [
       "-70.435",
       "41.6244"
     ]
   },
-  "Cohasset": {
-    "town": "Cohasset",
-    "listings": "93",
-    "coords": [
-      "-70.801",
-      "42.2409"
-    ]
-  },
   "Concord": {
     "town": "Concord",
-    "listings": "105",
+    "listings": "24",
     "coords": [
       "-71.4",
       "42.45"
     ]
   },
+  "Cohasset": {
+    "town": "Cohasset",
+    "listings": "30",
+    "coords": [
+      "-70.801",
+      "42.2409"
+    ]
+  },
   "Chilmark": {
     "town": "Chilmark",
-    "listings": "641",
+    "listings": "198",
     "coords": [
       "-70.7362",
       "41.3542"
@@ -1657,7 +1665,7 @@
   },
   "Chicopee": {
     "town": "Chicopee",
-    "listings": "88",
+    "listings": "32",
     "coords": [
       "-72.57",
       "42.18"
@@ -1665,26 +1673,26 @@
   },
   "Chestnut Hill": {
     "town": "Chestnut Hill",
-    "listings": "305",
+    "listings": "32",
     "coords": [
       "-71.1627",
       "42.3264"
     ]
   },
-  "Chelsea": {
-    "town": "Chelsea",
-    "listings": "541",
-    "coords": [
-      "-71.03",
-      "42.4"
-    ]
-  },
   "Cheshire": {
     "town": "Cheshire",
-    "listings": "35",
+    "listings": "17",
     "coords": [
       "-73.16",
       "42.56"
+    ]
+  },
+  "Chelsea": {
+    "town": "Chelsea",
+    "listings": "116",
+    "coords": [
+      "-71.03",
+      "42.4"
     ]
   },
   "Chelmsford": {
@@ -1695,25 +1703,25 @@
       "42.5998"
     ]
   },
-  "Charlestown": {
-    "town": "Charlestown",
-    "listings": "608",
-    "coords": [
-      "-71.062",
-      "42.3779"
-    ]
-  },
   "Chatham": {
     "town": "Chatham",
-    "listings": "1,665",
+    "listings": "526",
     "coords": [
       "-69.96",
       "41.68"
     ]
   },
+  "Charlestown": {
+    "town": "Charlestown",
+    "listings": "87",
+    "coords": [
+      "-71.062",
+      "42.3779"
+    ]
+  },
   "Charlemont": {
     "town": "Charlemont",
-    "listings": "69",
+    "listings": "38",
     "coords": [
       "-72.8732",
       "42.6241"
@@ -1721,7 +1729,7 @@
   },
   "Centerville": {
     "town": "Centerville",
-    "listings": "852",
+    "listings": "300",
     "coords": [
       "-70.354",
       "41.6456"
@@ -1729,15 +1737,23 @@
   },
   "Cataumet": {
     "town": "Cataumet",
-    "listings": "57",
+    "listings": "20",
     "coords": [
       "-70.5972",
       "41.6502"
     ]
   },
+  "Canton": {
+    "town": "Canton",
+    "listings": "22",
+    "coords": [
+      "-71.1448",
+      "42.1584"
+    ]
+  },
   "Cambridge": {
     "town": "Cambridge",
-    "listings": "9,569",
+    "listings": "1,249",
     "coords": [
       "-71.12",
       "42.38"
@@ -1745,23 +1761,15 @@
   },
   "Buzzards Bay": {
     "town": "Buzzards Bay",
-    "listings": "453",
+    "listings": "174",
     "coords": [
       "-70.61",
       "41.76"
     ]
   },
-  "Canton": {
-    "town": "Canton",
-    "listings": "75",
-    "coords": [
-      "-71.1448",
-      "42.1584"
-    ]
-  },
   "Burlington": {
     "town": "Burlington",
-    "listings": "320",
+    "listings": "149",
     "coords": [
       "-71.2",
       "42.5"
@@ -1769,7 +1777,7 @@
   },
   "Brookline": {
     "town": "Brookline",
-    "listings": "2,513",
+    "listings": "393",
     "coords": [
       "-71.14",
       "42.32"
@@ -1777,31 +1785,31 @@
   },
   "Brockton": {
     "town": "Brockton",
-    "listings": "179",
+    "listings": "72",
     "coords": [
       "-71.02",
       "42.08"
     ]
   },
-  "Brighton": {
-    "town": "Brighton",
-    "listings": "2,324",
-    "coords": [
-      "-71.137",
-      "42.3496"
-    ]
-  },
   "Brimfield": {
     "town": "Brimfield",
-    "listings": "46",
+    "listings": "23",
     "coords": [
       "-72.2025",
       "42.116"
     ]
   },
+  "Brighton": {
+    "town": "Brighton",
+    "listings": "356",
+    "coords": [
+      "-71.137",
+      "42.3496"
+    ]
+  },
   "Brewster": {
     "town": "Brewster",
-    "listings": "2,093",
+    "listings": "618",
     "coords": [
       "-70.08",
       "41.76"
@@ -1809,7 +1817,7 @@
   },
   "Braintree": {
     "town": "Braintree",
-    "listings": "271",
+    "listings": "43",
     "coords": [
       "-71",
       "42.2"
@@ -1817,7 +1825,7 @@
   },
   "Boston": {
     "town": "Boston",
-    "listings": "19,987",
+    "listings": "3,095",
     "coords": [
       "-71.02",
       "42.33"
@@ -1825,7 +1833,7 @@
   },
   "Billerica": {
     "town": "Billerica",
-    "listings": "59",
+    "listings": "16",
     "coords": [
       "-71.2689",
       "42.5584"
@@ -1833,7 +1841,7 @@
   },
   "Beverly": {
     "town": "Beverly",
-    "listings": "318",
+    "listings": "121",
     "coords": [
       "-70.84",
       "42.56"
@@ -1841,7 +1849,7 @@
   },
   "Belmont": {
     "town": "Belmont",
-    "listings": "264",
+    "listings": "39",
     "coords": [
       "-71.18",
       "42.4"
@@ -1849,7 +1857,7 @@
   },
   "Belchertown": {
     "town": "Belchertown",
-    "listings": "78",
+    "listings": "26",
     "coords": [
       "-72.41",
       "42.27"
@@ -1857,7 +1865,7 @@
   },
   "Bedford": {
     "town": "Bedford",
-    "listings": "89",
+    "listings": "14",
     "coords": [
       "-70.94",
       "41.66"
@@ -1865,7 +1873,7 @@
   },
   "Becket": {
     "town": "Becket",
-    "listings": "223",
+    "listings": "98",
     "coords": [
       "-73.1224",
       "42.3296"
@@ -1873,7 +1881,7 @@
   },
   "Barnstable": {
     "town": "Barnstable",
-    "listings": "220",
+    "listings": "81",
     "coords": [
       "-70.36",
       "41.67"
@@ -1881,18 +1889,10 @@
   },
   "Attleboro": {
     "town": "Attleboro",
-    "listings": "103",
+    "listings": "39",
     "coords": [
       "-71.29",
       "41.93"
-    ]
-  },
-  "Ashfield": {
-    "town": "Ashfield",
-    "listings": "59",
-    "coords": [
-      "-72.8114",
-      "42.5174"
     ]
   },
   "Athol": {
@@ -1903,9 +1903,17 @@
       "42.59"
     ]
   },
+  "Ashfield": {
+    "town": "Ashfield",
+    "listings": "21",
+    "coords": [
+      "-72.8114",
+      "42.5174"
+    ]
+  },
   "Ashburnham": {
     "town": "Ashburnham",
-    "listings": "41",
+    "listings": "19",
     "coords": [
       "-71.94",
       "42.61"
@@ -1913,7 +1921,7 @@
   },
   "Arlington": {
     "town": "Arlington",
-    "listings": "521",
+    "listings": "116",
     "coords": [
       "-71.16",
       "42.42"
@@ -1921,7 +1929,7 @@
   },
   "Andover": {
     "town": "Andover",
-    "listings": "219",
+    "listings": "69",
     "coords": [
       "-71.14",
       "42.66"
@@ -1929,7 +1937,7 @@
   },
   "Amherst": {
     "town": "Amherst",
-    "listings": "530",
+    "listings": "126",
     "coords": [
       "-72.52",
       "42.38"
@@ -1937,7 +1945,7 @@
   },
   "Amesbury": {
     "town": "Amesbury",
-    "listings": "62",
+    "listings": "18",
     "coords": [
       "-70.94",
       "42.85"
@@ -1945,7 +1953,7 @@
   },
   "Allston": {
     "town": "Allston",
-    "listings": "1,973",
+    "listings": "177",
     "coords": [
       "-71.1321",
       "42.3554"
@@ -1953,7 +1961,7 @@
   },
   "Adams": {
     "town": "Adams",
-    "listings": "82",
+    "listings": "38",
     "coords": [
       "-73.12",
       "42.63"
@@ -1961,7 +1969,7 @@
   },
   "Acton": {
     "town": "Acton",
-    "listings": "175",
+    "listings": "33",
     "coords": [
       "-71.4328",
       "42.4851"
@@ -1969,7 +1977,7 @@
   },
   "Abington": {
     "town": "Abington",
-    "listings": "43",
+    "listings": "18",
     "coords": [
       "-70.96",
       "42.12"
