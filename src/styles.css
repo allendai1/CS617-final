@@ -7,6 +7,14 @@ body{
 .svg-map{
     /* width: 95%; */
 }
+/* .median_listing_price{
+    color: red;
+    background-color: red;
+} */
+#county-dropdown select{
+    border-radius: 50px;
+    background-color: red;
+}
 .map path{
     background-color: red;
     stroke-width: 0.5;

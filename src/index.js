@@ -13,20 +13,20 @@ const data = d3.csv(file2, (data) => {
 	return data;
 });
 let county_list = [
-	"barnstable",
-	"berkshire",
-	"bristol",
-	"dukes",
-	"essex",
-	"franklin",
-	"hampden",
-	"hampshire",
-	"middlesex",
-	"nantucket",
-	"norfolk",
-	"plymouth",
-	"suffolk",
-	"worcester",
+	"Barnstable",
+	"Berkshire",
+	"Bristol",
+	"Dukes",
+	"Essex",
+	"Franklin",
+	"Hampden",
+	"Hampshire",
+	"Middlesex",
+	"Nantucket",
+	"Norfolk",
+	"Plymouth",
+	"Suffolk",
+	"Worcester",
 ];
 
 let projection = d3
@@ -245,9 +245,10 @@ function updateCurrentListing(data) {
 	});
 }
 
-let currentCounty = "hampden";
+let currentCounty = "Hampden";
 let dropdown = d3.select(".selection").on("change", (e) => {
 	currentCounty = dropdown.node().value;
+
 
 	updateCurrentListing(data);
 });
