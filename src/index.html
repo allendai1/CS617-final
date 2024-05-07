@@ -16,11 +16,14 @@
 
       </div>
       <div class="menu">
-    <div class="median_listing_price"></div>
 
-        <div class="slider2"></div>
+        <div class="slider2">
+          <div>Year</div>
+        </div>
 
-        <div class="slider"></div>
+        <div class="slider">
+          <div>Month</div>
+        </div>
 
         <div id="county-dropdown">
           <select class="selection" name="county">
@@ -40,9 +43,16 @@
             <option>Worcester</option>
           </select>
         </div>
+        <div style="text-align: center;">
+          Median Listing price
+        </div>
+    <div class="median_listing_price"></div>
+
+
       </div>
     </div>
-
+    <div id="graphToolTip"></div>
+    <div id="scatterplot"></div>
     <script type="module" src="index.js"></script>
   </body>
 </html>
