@@ -342,13 +342,12 @@ county_list.forEach((c) => {
     sp.append('g')
       // .selectAll("dot")
       .append('circle')
+      .attr('r', 3)
+      .attr("fill", "#ffffff")
       .attr('cy', yAxis(d.median_listing_price))
       .attr('cx', xAxis(county_listings[c]))
-      .attr('r', 3)
-      .style('fill', '#69b3a2')
+      .style('fill', 'rgb(0, 0, 0)')
       .on('mouseover', (event, d) => {
-        console.log(c)
-
         d3.select('#graphToolTip').style('visibility', 'visible')
       })
       .on('mouseout', (event, d) => {
@@ -361,7 +360,9 @@ county_list.forEach((c) => {
           .text(`${c} county`)
       })
 
-    console.log(c, county_listings[c], d.median_listing_price)
   })
 })
 // arr of objects where each object is {listings: 1234, price : 1234}
+data.then(x=>{
+  console.log(x[0].median_listing_price_per_square_foot)
+})
