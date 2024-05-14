@@ -75,7 +75,9 @@ body{
     padding-bottom: 1rem;
     
 }
-
+#plotContainer{
+    display: flex;
+}
 .cities-tooltip{
     position: absolute;
     top: 0;
