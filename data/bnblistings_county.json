@@ -1,0 +1,1778 @@
+{
+    "Barnstable": [
+      {
+        "town": "Yarmouth Port",
+        "listings": "148",
+        "coords": [
+          "-70.23",
+          "41.71"
+        ]
+      },
+      {
+        "town": "Woods Hole",
+        "listings": "55",
+        "coords": [
+          "-70.67",
+          "41.53"
+        ]
+      },
+      {
+        "town": "West Yarmouth",
+        "listings": "422",
+        "coords": [
+          "-70.25",
+          "41.65"
+        ]
+      },
+      {
+        "town": "West Hyannisport",
+        "listings": "26",
+        "coords": [
+          "-70.2984",
+          "41.6407"
+        ]
+      },
+      {
+        "town": "West Harwich",
+        "listings": "122",
+        "coords": [
+          "-70.1212",
+          "41.6618"
+        ]
+      },
+      {
+        "town": "West Dennis",
+        "listings": "213",
+        "coords": [
+          "-70.17",
+          "41.67"
+        ]
+      },
+      {
+        "town": "West Chatham",
+        "listings": "63",
+        "coords": [
+          "-69.99",
+          "41.68"
+        ]
+      },
+      {
+        "town": "West Barnstable",
+        "listings": "49",
+        "coords": [
+          "-70.3657",
+          "41.6956"
+        ]
+      },
+      {
+        "town": "Wellfleet",
+        "listings": "469",
+        "coords": [
+          "-70.011",
+          "41.9334"
+        ]
+      },
+      {
+        "town": "Truro",
+        "listings": "129",
+        "coords": [
+          "-70.0495",
+          "41.997"
+        ]
+      },
+      {
+        "town": "South Yarmouth",
+        "listings": "444",
+        "coords": [
+          "-70.2",
+          "41.67"
+        ]
+      },
+      {
+        "town": "South Wellfleet",
+        "listings": "77",
+        "coords": [
+          "-69.9793",
+          "41.9056"
+        ]
+      },
+      {
+        "town": "South Dennis",
+        "listings": "178",
+        "coords": [
+          "-70.15",
+          "41.71"
+        ]
+      },
+      {
+        "town": "South Chatham",
+        "listings": "182",
+        "coords": [
+          "-69.9875",
+          "41.6888"
+        ]
+      },
+      {
+        "town": "Sandwich",
+        "listings": "227",
+        "coords": [
+          "-70.43",
+          "41.74"
+        ]
+      },
+      {
+        "town": "Pocasset",
+        "listings": "89",
+        "coords": [
+          "-70.64",
+          "41.69"
+        ]
+      },
+      {
+        "town": "Osterville",
+        "listings": "138",
+        "coords": [
+          "-70.3826",
+          "41.6352"
+        ]
+      },
+      {
+        "town": "Orleans",
+        "listings": "446",
+        "coords": [
+          "-70",
+          "41.79"
+        ]
+      },
+      {
+        "town": "North Truro",
+        "listings": "351",
+        "coords": [
+          "-70.0902",
+          "42.0366"
+        ]
+      },
+      {
+        "town": "North Falmouth",
+        "listings": "140",
+        "coords": [
+          "-70.63",
+          "41.64"
+        ]
+      },
+      {
+        "town": "North Chatham",
+        "listings": "92",
+        "coords": [
+          "-69.96",
+          "41.7023"
+        ]
+      },
+      {
+        "town": "Mashpee",
+        "listings": "475",
+        "coords": [
+          "-70.47",
+          "41.61"
+        ]
+      },
+      {
+        "town": "Marstons Mills",
+        "listings": "69",
+        "coords": [
+          "-70.4179",
+          "41.6583"
+        ]
+      },
+      {
+        "town": "Harwich",
+        "listings": "301",
+        "coords": [
+          "-70.03",
+          "41.71"
+        ]
+      },
+      {
+        "town": "Harwich Port",
+        "listings": "238",
+        "coords": [
+          "-70.06",
+          "41.67"
+        ]
+      },
+      {
+        "town": "Forestdale",
+        "listings": "19",
+        "coords": [
+          "-70.51",
+          "41.68"
+        ]
+      },
+      {
+        "town": "Falmouth",
+        "listings": "352",
+        "coords": [
+          "-70.56",
+          "41.57"
+        ]
+      },
+      {
+        "town": "East Sandwich",
+        "listings": "290",
+        "coords": [
+          "-70.43",
+          "41.74"
+        ]
+      },
+      {
+        "town": "East Orleans",
+        "listings": "62",
+        "coords": [
+          "-69.9871",
+          "41.7921"
+        ]
+      },
+      {
+        "town": "East Falmouth",
+        "listings": "496",
+        "coords": [
+          "-70.56",
+          "41.57"
+        ]
+      },
+      {
+        "town": "East Dennis",
+        "listings": "49",
+        "coords": [
+          "-70.16",
+          "41.74"
+        ]
+      },
+      {
+        "town": "Dennis",
+        "listings": "202",
+        "coords": [
+          "-70.2",
+          "41.73"
+        ]
+      },
+      {
+        "town": "Dennis Port",
+        "listings": "715",
+        "coords": [
+          "-70.14",
+          "41.67"
+        ]
+      },
+      {
+        "town": "Cotuit",
+        "listings": "89",
+        "coords": [
+          "-70.435",
+          "41.6244"
+        ]
+      },
+      {
+        "town": "Chatham",
+        "listings": "526",
+        "coords": [
+          "-69.96",
+          "41.68"
+        ]
+      },
+      {
+        "town": "Centerville",
+        "listings": "300",
+        "coords": [
+          "-70.354",
+          "41.6456"
+        ]
+      },
+      {
+        "town": "Cataumet",
+        "listings": "20",
+        "coords": [
+          "-70.5972",
+          "41.6502"
+        ]
+      },
+      {
+        "town": "Buzzards Bay",
+        "listings": "174",
+        "coords": [
+          "-70.61",
+          "41.76"
+        ]
+      },
+      {
+        "town": "Brewster",
+        "listings": "618",
+        "coords": [
+          "-70.08",
+          "41.76"
+        ]
+      },
+      {
+        "town": "Barnstable",
+        "listings": "81",
+        "coords": [
+          "-70.36",
+          "41.67"
+        ]
+      }
+    ],
+    "Worcester": [
+      {
+        "town": "Worcester",
+        "listings": "360",
+        "coords": [
+          "-71.81",
+          "42.27"
+        ]
+      },
+      {
+        "town": "Winchendon",
+        "listings": "13",
+        "coords": [
+          "-72.04",
+          "42.68"
+        ]
+      },
+      {
+        "town": "Westminster",
+        "listings": "18",
+        "coords": [
+          "-71.9101",
+          "42.5454"
+        ]
+      },
+      {
+        "town": "Westborough",
+        "listings": "62",
+        "coords": [
+          "-71.62",
+          "42.27"
+        ]
+      },
+      {
+        "town": "West Brookfield",
+        "listings": "13",
+        "coords": [
+          "-72.15",
+          "42.24"
+        ]
+      },
+      {
+        "town": "Webster",
+        "listings": "25",
+        "coords": [
+          "-71.87",
+          "42.04"
+        ]
+      },
+      {
+        "town": "Sturbridge",
+        "listings": "18",
+        "coords": [
+          "-72.06",
+          "42.1"
+        ]
+      },
+      {
+        "town": "Spencer",
+        "listings": "15",
+        "coords": [
+          "-71.99",
+          "42.25"
+        ]
+      },
+      {
+        "town": "Southborough",
+        "listings": "14",
+        "coords": [
+          "-71.5256",
+          "42.3056"
+        ]
+      },
+      {
+        "town": "Shrewsbury",
+        "listings": "52",
+        "coords": [
+          "-71.7387",
+          "42.2945"
+        ]
+      },
+      {
+        "town": "Rutland",
+        "listings": "12",
+        "coords": [
+          "-71.96",
+          "42.36"
+        ]
+      },
+      {
+        "town": "Millbury",
+        "listings": "10",
+        "coords": [
+          "-71.7645",
+          "42.191"
+        ]
+      },
+      {
+        "town": "Milford",
+        "listings": "49",
+        "coords": [
+          "-71.52",
+          "42.15"
+        ]
+      },
+      {
+        "town": "Leominster",
+        "listings": "20",
+        "coords": [
+          "-71.77",
+          "42.52"
+        ]
+      },
+      {
+        "town": "Leicester",
+        "listings": "20",
+        "coords": [
+          "-71.9097",
+          "42.2432"
+        ]
+      },
+      {
+        "town": "Hubbardston",
+        "listings": "24",
+        "coords": [
+          "-72.0045",
+          "42.4782"
+        ]
+      },
+      {
+        "town": "Fitchburg",
+        "listings": "32",
+        "coords": [
+          "-71.82",
+          "42.59"
+        ]
+      },
+      {
+        "town": "Athol",
+        "listings": "25",
+        "coords": [
+          "-72.23",
+          "42.59"
+        ]
+      },
+      {
+        "town": "Ashburnham",
+        "listings": "19",
+        "coords": [
+          "-71.94",
+          "42.61"
+        ]
+      }
+    ],
+    "Middlesex": [
+      {
+        "town": "Woburn",
+        "listings": "211",
+        "coords": [
+          "-71.15",
+          "42.49"
+        ]
+      },
+      {
+        "town": "Winchester",
+        "listings": "16",
+        "coords": [
+          "-71.15",
+          "42.45"
+        ]
+      },
+      {
+        "town": "Wilmington",
+        "listings": "46",
+        "coords": [
+          "-71.17",
+          "42.56"
+        ]
+      },
+      {
+        "town": "Weston",
+        "listings": "15",
+        "coords": [
+          "-71.3034",
+          "42.3662"
+        ]
+      },
+      {
+        "town": "Westford",
+        "listings": "17",
+        "coords": [
+          "-71.4378",
+          "42.5791"
+        ]
+      },
+      {
+        "town": "West Newton",
+        "listings": "27",
+        "coords": [
+          "-71.2085",
+          "42.3529"
+        ]
+      },
+      {
+        "town": "Wayland",
+        "listings": "18",
+        "coords": [
+          "-71.3616",
+          "42.3625"
+        ]
+      },
+      {
+        "town": "Watertown",
+        "listings": "181",
+        "coords": [
+          "-71.18",
+          "42.37"
+        ]
+      },
+      {
+        "town": "Waltham",
+        "listings": "175",
+        "coords": [
+          "-71.24",
+          "42.39"
+        ]
+      },
+      {
+        "town": "Wakefield",
+        "listings": "92",
+        "coords": [
+          "-71.07",
+          "42.5"
+        ]
+      },
+      {
+        "town": "Tewksbury",
+        "listings": "22",
+        "coords": [
+          "-71.2342",
+          "42.6106"
+        ]
+      },
+      {
+        "town": "Stoneham",
+        "listings": "32",
+        "coords": [
+          "-71.1",
+          "42.47"
+        ]
+      },
+      {
+        "town": "Somerville",
+        "listings": "561",
+        "coords": [
+          "-71.1",
+          "42.39"
+        ]
+      },
+      {
+        "town": "Newtonville",
+        "listings": "45",
+        "coords": [
+          "-71.2081",
+          "42.3494"
+        ]
+      },
+      {
+        "town": "Newton",
+        "listings": "63",
+        "coords": [
+          "-71.21",
+          "42.33"
+        ]
+      },
+      {
+        "town": "Newton Highlands",
+        "listings": "36",
+        "coords": [
+          "-71.2071",
+          "42.3224"
+        ]
+      },
+      {
+        "town": "Newton Center",
+        "listings": "47",
+        "coords": [
+          "-71.1948",
+          "42.3248"
+        ]
+      },
+      {
+        "town": "Natick",
+        "listings": "23",
+        "coords": [
+          "-71.3492",
+          "42.2814"
+        ]
+      },
+      {
+        "town": "Melrose",
+        "listings": "60",
+        "coords": [
+          "-71.06",
+          "42.46"
+        ]
+      },
+      {
+        "town": "Medford",
+        "listings": "247",
+        "coords": [
+          "-71.11",
+          "42.42"
+        ]
+      },
+      {
+        "town": "Marlborough",
+        "listings": "50",
+        "coords": [
+          "-71.55",
+          "42.35"
+        ]
+      },
+      {
+        "town": "Malden",
+        "listings": "192",
+        "coords": [
+          "-71.06",
+          "42.43"
+        ]
+      },
+      {
+        "town": "Lowell",
+        "listings": "98",
+        "coords": [
+          "-71.32",
+          "42.64"
+        ]
+      },
+      {
+        "town": "Littleton",
+        "listings": "23",
+        "coords": [
+          "-71.47",
+          "42.54"
+        ]
+      },
+      {
+        "town": "Lexington",
+        "listings": "50",
+        "coords": [
+          "-71.23",
+          "42.45"
+        ]
+      },
+      {
+        "town": "Groton",
+        "listings": "22",
+        "coords": [
+          "-71.57",
+          "42.61"
+        ]
+      },
+      {
+        "town": "Framingham",
+        "listings": "78",
+        "coords": [
+          "-71.44",
+          "42.31"
+        ]
+      },
+      {
+        "town": "Everett",
+        "listings": "180",
+        "coords": [
+          "-71.05",
+          "42.41"
+        ]
+      },
+      {
+        "town": "Dracut",
+        "listings": "48",
+        "coords": [
+          "-71.3021",
+          "42.6706"
+        ]
+      },
+      {
+        "town": "Concord",
+        "listings": "24",
+        "coords": [
+          "-71.4",
+          "42.45"
+        ]
+      },
+      {
+        "town": "Chestnut Hill",
+        "listings": "32",
+        "coords": [
+          "-71.1627",
+          "42.3264"
+        ]
+      },
+      {
+        "town": "Chelmsford",
+        "listings": "72",
+        "coords": [
+          "-71.3673",
+          "42.5998"
+        ]
+      },
+      {
+        "town": "Cambridge",
+        "listings": "1,249",
+        "coords": [
+          "-71.12",
+          "42.38"
+        ]
+      },
+      {
+        "town": "Burlington",
+        "listings": "149",
+        "coords": [
+          "-71.2",
+          "42.5"
+        ]
+      },
+      {
+        "town": "Billerica",
+        "listings": "16",
+        "coords": [
+          "-71.2689",
+          "42.5584"
+        ]
+      },
+      {
+        "town": "Belmont",
+        "listings": "39",
+        "coords": [
+          "-71.18",
+          "42.4"
+        ]
+      },
+      {
+        "town": "Arlington",
+        "listings": "116",
+        "coords": [
+          "-71.16",
+          "42.42"
+        ]
+      },
+      {
+        "town": "Acton",
+        "listings": "33",
+        "coords": [
+          "-71.4328",
+          "42.4851"
+        ]
+      }
+    ],
+    "Berkshire": [
+      {
+        "town": "Williamstown",
+        "listings": "171",
+        "coords": [
+          "-73.2",
+          "42.71"
+        ]
+      },
+      {
+        "town": "West Stockbridge",
+        "listings": "62",
+        "coords": [
+          "-73.3664",
+          "42.3366"
+        ]
+      },
+      {
+        "town": "Stockbridge",
+        "listings": "73",
+        "coords": [
+          "-73.3201",
+          "42.2808"
+        ]
+      },
+      {
+        "town": "South Lee",
+        "listings": "14",
+        "coords": [
+          "-73.2486",
+          "42.2875"
+        ]
+      },
+      {
+        "town": "South Egremont",
+        "listings": "33",
+        "coords": [
+          "-73.4411",
+          "42.133"
+        ]
+      },
+      {
+        "town": "Sheffield",
+        "listings": "61",
+        "coords": [
+          "-73.3555",
+          "42.1089"
+        ]
+      },
+      {
+        "town": "Sandisfield",
+        "listings": "31",
+        "coords": [
+          "-73.13",
+          "42.1068"
+        ]
+      },
+      {
+        "town": "Richmond",
+        "listings": "27",
+        "coords": [
+          "-73.3644",
+          "42.3754"
+        ]
+      },
+      {
+        "town": "Pittsfield",
+        "listings": "201",
+        "coords": [
+          "-73.26",
+          "42.45"
+        ]
+      },
+      {
+        "town": "Otis",
+        "listings": "36",
+        "coords": [
+          "-73.0631",
+          "42.1942"
+        ]
+      },
+      {
+        "town": "North Adams",
+        "listings": "149",
+        "coords": [
+          "-73.12",
+          "42.68"
+        ]
+      },
+      {
+        "town": "Monterey",
+        "listings": "62",
+        "coords": [
+          "-73.228",
+          "42.1846"
+        ]
+      },
+      {
+        "town": "Lenox",
+        "listings": "222",
+        "coords": [
+          "-73.29",
+          "42.36"
+        ]
+      },
+      {
+        "town": "Lee",
+        "listings": "160",
+        "coords": [
+          "-73.25",
+          "42.31"
+        ]
+      },
+      {
+        "town": "Lanesboro",
+        "listings": "220",
+        "coords": [
+          "-73.2487",
+          "42.5141"
+        ]
+      },
+      {
+        "town": "Housatonic",
+        "listings": "42",
+        "coords": [
+          "-73.36",
+          "42.25"
+        ]
+      },
+      {
+        "town": "Hinsdale",
+        "listings": "26",
+        "coords": [
+          "-73.1166",
+          "42.4185"
+        ]
+      },
+      {
+        "town": "Great Barrington",
+        "listings": "342",
+        "coords": [
+          "-73.36",
+          "42.19"
+        ]
+      },
+      {
+        "town": "Dalton",
+        "listings": "15",
+        "coords": [
+          "-73.1675",
+          "42.4753"
+        ]
+      },
+      {
+        "town": "Cheshire",
+        "listings": "17",
+        "coords": [
+          "-73.16",
+          "42.56"
+        ]
+      },
+      {
+        "town": "Becket",
+        "listings": "98",
+        "coords": [
+          "-73.1224",
+          "42.3296"
+        ]
+      },
+      {
+        "town": "Adams",
+        "listings": "38",
+        "coords": [
+          "-73.12",
+          "42.63"
+        ]
+      }
+    ],
+    "Hampshire": [
+      {
+        "town": "Williamsburg",
+        "listings": "37",
+        "coords": [
+          "-72.7567",
+          "42.4134"
+        ]
+      },
+      {
+        "town": "Ware",
+        "listings": "17",
+        "coords": [
+          "-72.25",
+          "42.25"
+        ]
+      },
+      {
+        "town": "South Hadley",
+        "listings": "23",
+        "coords": [
+          "-72.5747",
+          "42.2596"
+        ]
+      },
+      {
+        "town": "Northampton",
+        "listings": "112",
+        "coords": [
+          "-72.67",
+          "42.33"
+        ]
+      },
+      {
+        "town": "Huntington",
+        "listings": "25",
+        "coords": [
+          "-72.88",
+          "42.24"
+        ]
+      },
+      {
+        "town": "Hadley",
+        "listings": "23",
+        "coords": [
+          "-72.5747",
+          "42.2596"
+        ]
+      },
+      {
+        "town": "Granby",
+        "listings": "16",
+        "coords": [
+          "-72.52",
+          "42.26"
+        ]
+      },
+      {
+        "town": "Florence",
+        "listings": "59",
+        "coords": [
+          "-72.6758",
+          "42.33"
+        ]
+      },
+      {
+        "town": "Easthampton",
+        "listings": "41",
+        "coords": [
+          "-72.67",
+          "42.27"
+        ]
+      },
+      {
+        "town": "Eastham",
+        "listings": "633",
+        "coords": [
+          "-72.67",
+          "42.27"
+        ]
+      },
+      {
+        "town": "Cummington",
+        "listings": "15",
+        "coords": [
+          "-72.9059",
+          "42.4485"
+        ]
+      },
+      {
+        "town": "Belchertown",
+        "listings": "26",
+        "coords": [
+          "-72.41",
+          "42.27"
+        ]
+      },
+      {
+        "town": "Amherst",
+        "listings": "126",
+        "coords": [
+          "-72.52",
+          "42.38"
+        ]
+      }
+    ],
+    "Hampden": [
+      {
+        "town": "Westfield",
+        "listings": "58",
+        "coords": [
+          "-72.76",
+          "42.14"
+        ]
+      },
+      {
+        "town": "Springfield",
+        "listings": "224",
+        "coords": [
+          "-72.54",
+          "42.12"
+        ]
+      },
+      {
+        "town": "Southwick",
+        "listings": "41",
+        "coords": [
+          "-72.7702",
+          "42.0541"
+        ]
+      },
+      {
+        "town": "Palmer",
+        "listings": "20",
+        "coords": [
+          "-72.31",
+          "42.19"
+        ]
+      },
+      {
+        "town": "Indian Orchard",
+        "listings": "13",
+        "coords": [
+          "-72.5119",
+          "42.1343"
+        ]
+      },
+      {
+        "town": "Holyoke",
+        "listings": "45",
+        "coords": [
+          "-72.64",
+          "42.21"
+        ]
+      },
+      {
+        "town": "Holland",
+        "listings": "26",
+        "coords": [
+          "-72.15",
+          "42.05"
+        ]
+      },
+      {
+        "town": "Granville",
+        "listings": "16",
+        "coords": [
+          "-72.925",
+          "42.0853"
+        ]
+      },
+      {
+        "town": "East Otis",
+        "listings": "40",
+        "coords": [
+          "-73.0224",
+          "42.1782"
+        ]
+      },
+      {
+        "town": "Chicopee",
+        "listings": "32",
+        "coords": [
+          "-72.57",
+          "42.18"
+        ]
+      },
+      {
+        "town": "Brimfield",
+        "listings": "23",
+        "coords": [
+          "-72.2025",
+          "42.116"
+        ]
+      }
+    ],
+    "Plymouth": [
+      {
+        "town": "West Wareham",
+        "listings": "20",
+        "coords": [
+          "-70.75",
+          "41.79"
+        ]
+      },
+      {
+        "town": "Wareham",
+        "listings": "110",
+        "coords": [
+          "-70.72",
+          "41.75"
+        ]
+      },
+      {
+        "town": "Southfield",
+        "listings": "27",
+        "coords": [
+          "-70.93",
+          "42.15"
+        ]
+      },
+      {
+        "town": "Scituate",
+        "listings": "161",
+        "coords": [
+          "-70.77",
+          "42.21"
+        ]
+      },
+      {
+        "town": "Onset",
+        "listings": "81",
+        "coords": [
+          "-70.67",
+          "41.75"
+        ]
+      },
+      {
+        "town": "Mattapoisett",
+        "listings": "57",
+        "coords": [
+          "-70.81",
+          "41.67"
+        ]
+      },
+      {
+        "town": "Marshfield",
+        "listings": "130",
+        "coords": [
+          "-70.7",
+          "42.09"
+        ]
+      },
+      {
+        "town": "Marion",
+        "listings": "50",
+        "coords": [
+          "-70.76",
+          "41.7"
+        ]
+      },
+      {
+        "town": "Lakeville",
+        "listings": "18",
+        "coords": [
+          "-70.94",
+          "41.86"
+        ]
+      },
+      {
+        "town": "Kingston",
+        "listings": "23",
+        "coords": [
+          "-70.72",
+          "42"
+        ]
+      },
+      {
+        "town": "Hingham",
+        "listings": "16",
+        "coords": [
+          "-70.89",
+          "42.24"
+        ]
+      },
+      {
+        "town": "East Wareham",
+        "listings": "27",
+        "coords": [
+          "-70.649",
+          "41.761"
+        ]
+      },
+      {
+        "town": "Duxbury",
+        "listings": "36",
+        "coords": [
+          "-70.67",
+          "42.04"
+        ]
+      },
+      {
+        "town": "Cohasset",
+        "listings": "30",
+        "coords": [
+          "-70.801",
+          "42.2409"
+        ]
+      },
+      {
+        "town": "Brockton",
+        "listings": "72",
+        "coords": [
+          "-71.02",
+          "42.08"
+        ]
+      },
+      {
+        "town": "Abington",
+        "listings": "18",
+        "coords": [
+          "-70.96",
+          "42.12"
+        ]
+      }
+    ],
+    "Suffolk": [
+      {
+        "town": "West Roxbury",
+        "listings": "71",
+        "coords": [
+          "-71.1497",
+          "42.2793"
+        ]
+      },
+      {
+        "town": "Roxbury",
+        "listings": "269",
+        "coords": [
+          "-71.0848",
+          "42.3251"
+        ]
+      },
+      {
+        "town": "Roxbury Crossing",
+        "listings": "87",
+        "coords": [
+          "-71.0982",
+          "42.3314"
+        ]
+      },
+      {
+        "town": "Roslindale",
+        "listings": "87",
+        "coords": [
+          "-71.1301",
+          "42.2814"
+        ]
+      },
+      {
+        "town": "Revere",
+        "listings": "182",
+        "coords": [
+          "-70.99",
+          "42.42"
+        ]
+      },
+      {
+        "town": "Mattapan",
+        "listings": "67",
+        "coords": [
+          "-71.0914",
+          "42.2771"
+        ]
+      },
+      {
+        "town": "Jamaica Plain",
+        "listings": "202",
+        "coords": [
+          "-71.1151",
+          "42.3097"
+        ]
+      },
+      {
+        "town": "Hyde Park",
+        "listings": "55",
+        "coords": [
+          "-71.1241",
+          "42.2565"
+        ]
+      },
+      {
+        "town": "Dorchester",
+        "listings": "543",
+        "coords": [
+          "-71.0676",
+          "42.3016"
+        ]
+      },
+      {
+        "town": "Dorchester Center",
+        "listings": "171",
+        "coords": [
+          "-71.0676",
+          "42.3016"
+        ]
+      },
+      {
+        "town": "Chelsea",
+        "listings": "116",
+        "coords": [
+          "-71.03",
+          "42.4"
+        ]
+      },
+      {
+        "town": "Charlestown",
+        "listings": "87",
+        "coords": [
+          "-71.062",
+          "42.3779"
+        ]
+      },
+      {
+        "town": "Brookline",
+        "listings": "393",
+        "coords": [
+          "-71.14",
+          "42.32"
+        ]
+      },
+      {
+        "town": "Brighton",
+        "listings": "356",
+        "coords": [
+          "-71.137",
+          "42.3496"
+        ]
+      },
+      {
+        "town": "Boston",
+        "listings": "3,095",
+        "coords": [
+          "-71.02",
+          "42.33"
+        ]
+      },
+      {
+        "town": "Allston",
+        "listings": "177",
+        "coords": [
+          "-71.1321",
+          "42.3554"
+        ]
+      }
+    ],
+    "Norfolk": [
+      {
+        "town": "Wellesley",
+        "listings": "23",
+        "coords": [
+          "-71.29",
+          "42.3"
+        ]
+      },
+      {
+        "town": "Wellesley Hills",
+        "listings": "14",
+        "coords": [
+          "-71.2727",
+          "42.3192"
+        ]
+      },
+      {
+        "town": "Stoughton",
+        "listings": "29",
+        "coords": [
+          "-71.1045",
+          "42.1245"
+        ]
+      },
+      {
+        "town": "Sharon",
+        "listings": "53",
+        "coords": [
+          "-71.18",
+          "42.12"
+        ]
+      },
+      {
+        "town": "Randolph",
+        "listings": "42",
+        "coords": [
+          "-71.05",
+          "42.18"
+        ]
+      },
+      {
+        "town": "Quincy",
+        "listings": "230",
+        "coords": [
+          "-71.01",
+          "42.26"
+        ]
+      },
+      {
+        "town": "Norwood",
+        "listings": "15",
+        "coords": [
+          "-71.19",
+          "42.19"
+        ]
+      },
+      {
+        "town": "North Weymouth",
+        "listings": "19",
+        "coords": [
+          "-70.9429",
+          "42.2358"
+        ]
+      },
+      {
+        "town": "Milton",
+        "listings": "43",
+        "coords": [
+          "-71.08",
+          "42.24"
+        ]
+      },
+      {
+        "town": "Franklin",
+        "listings": "54",
+        "coords": [
+          "-71.41",
+          "42.09"
+        ]
+      },
+      {
+        "town": "Foxboro",
+        "listings": "144",
+        "coords": [
+          "-71.25",
+          "42.06"
+        ]
+      },
+      {
+        "town": "Dedham",
+        "listings": "46",
+        "coords": [
+          "-71.18",
+          "42.25"
+        ]
+      },
+      {
+        "town": "Canton",
+        "listings": "22",
+        "coords": [
+          "-71.1448",
+          "42.1584"
+        ]
+      },
+      {
+        "town": "Braintree",
+        "listings": "43",
+        "coords": [
+          "-71",
+          "42.2"
+        ]
+      }
+    ],
+    "Essex": [
+      {
+        "town": "Swampscott",
+        "listings": "53",
+        "coords": [
+          "-70.89",
+          "42.47"
+        ]
+      },
+      {
+        "town": "Saugus",
+        "listings": "34",
+        "coords": [
+          "-71.01",
+          "42.47"
+        ]
+      },
+      {
+        "town": "Salisbury",
+        "listings": "154",
+        "coords": [
+          "-70.84",
+          "42.83"
+        ]
+      },
+      {
+        "town": "Salem",
+        "listings": "440",
+        "coords": [
+          "-70.85",
+          "42.52"
+        ]
+      },
+      {
+        "town": "Rowley",
+        "listings": "13",
+        "coords": [
+          "-70.87",
+          "42.72"
+        ]
+      },
+      {
+        "town": "Rockport",
+        "listings": "308",
+        "coords": [
+          "-70.62",
+          "42.65"
+        ]
+      },
+      {
+        "town": "Peabody",
+        "listings": "37",
+        "coords": [
+          "-70.97",
+          "42.53"
+        ]
+      },
+      {
+        "town": "North Andover",
+        "listings": "57",
+        "coords": [
+          "-71.1351",
+          "42.6982"
+        ]
+      },
+      {
+        "town": "Newburyport",
+        "listings": "175",
+        "coords": [
+          "-70.89",
+          "42.81"
+        ]
+      },
+      {
+        "town": "Newbury",
+        "listings": "116",
+        "coords": [
+          "-70.89",
+          "42.81"
+        ]
+      },
+      {
+        "town": "Methuen",
+        "listings": "24",
+        "coords": [
+          "-71.19",
+          "42.73"
+        ]
+      },
+      {
+        "town": "Lynn",
+        "listings": "103",
+        "coords": [
+          "-70.96",
+          "42.47"
+        ]
+      },
+      {
+        "town": "Lawrence",
+        "listings": "41",
+        "coords": [
+          "-71.16",
+          "42.7"
+        ]
+      },
+      {
+        "town": "Ipswich",
+        "listings": "76",
+        "coords": [
+          "-70.83",
+          "42.68"
+        ]
+      },
+      {
+        "town": "Haverhill",
+        "listings": "39",
+        "coords": [
+          "-71.09",
+          "42.78"
+        ]
+      },
+      {
+        "town": "Gloucester",
+        "listings": "397",
+        "coords": [
+          "-70.68",
+          "42.63"
+        ]
+      },
+      {
+        "town": "Essex",
+        "listings": "35",
+        "coords": [
+          "-70.77",
+          "42.63"
+        ]
+      },
+      {
+        "town": "Danvers",
+        "listings": "44",
+        "coords": [
+          "-70.95",
+          "42.57"
+        ]
+      },
+      {
+        "town": "Beverly",
+        "listings": "121",
+        "coords": [
+          "-70.84",
+          "42.56"
+        ]
+      },
+      {
+        "town": "Andover",
+        "listings": "69",
+        "coords": [
+          "-71.14",
+          "42.66"
+        ]
+      },
+      {
+        "town": "Amesbury",
+        "listings": "18",
+        "coords": [
+          "-70.94",
+          "42.85"
+        ]
+      }
+    ],
+    "Franklin": [
+      {
+        "town": "South Deerfield",
+        "listings": "17",
+        "coords": [
+          "-72.59",
+          "42.48"
+        ]
+      },
+      {
+        "town": "Shelburne Falls",
+        "listings": "60",
+        "coords": [
+          "-72.74",
+          "42.61"
+        ]
+      },
+      {
+        "town": "Orange",
+        "listings": "28",
+        "coords": [
+          "-72.3",
+          "42.6"
+        ]
+      },
+      {
+        "town": "Montague",
+        "listings": "9",
+        "coords": [
+          "-72.53",
+          "42.54"
+        ]
+      },
+      {
+        "town": "Greenfield",
+        "listings": "29",
+        "coords": [
+          "-72.6",
+          "42.61"
+        ]
+      },
+      {
+        "town": "Charlemont",
+        "listings": "38",
+        "coords": [
+          "-72.8732",
+          "42.6241"
+        ]
+      },
+      {
+        "town": "Ashfield",
+        "listings": "21",
+        "coords": [
+          "-72.8114",
+          "42.5174"
+        ]
+      }
+    ],
+    "Nantucket": [
+      {
+        "town": "Siasconset",
+        "listings": "106",
+        "coords": [
+          "-69.97",
+          "41.26"
+        ]
+      },
+      {
+        "town": "Nantucket",
+        "listings": "1,220",
+        "coords": [
+          "-70.09",
+          "41.27"
+        ]
+      }
+    ]
+  }
